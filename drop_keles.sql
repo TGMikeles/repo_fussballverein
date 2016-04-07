@@ -1,0 +1,16 @@
+drop table person; 
+drop table spieler;
+drop table istkapitaen;
+drop table spiel;
+drop table spielt;
+drop table angestellter;
+drop table mitglied;
+drop table trainer;
+drop table mannschaft;
+drop table cheftrainer;
+drop table standort;
+drop table fanclub;
+drop table obmann;
+drop table zeitraum;
+drop table assitrainer;
+drop database fussballverein;
