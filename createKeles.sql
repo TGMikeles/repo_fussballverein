@@ -1,5 +1,5 @@
 create table person(
-persnr INTEGER,
+persnr Serial,
 vname  varchar(255),
 nname  varchar (255),
 geschlecht char(1),
@@ -9,7 +9,7 @@ PRIMARY KEY (persnr)
 
 create table spieler(
 bezeichnung VARCHAR(255),
-persnr INTEGER,
+persnr Serial,
 nummer INTEGER,
 gehalt integer,
 position  varchar(255),
@@ -21,7 +21,7 @@ FOREIGN KEY(bezeichnung) references mannschaft(bezeichnung)
 );
 
 create table istkapitaen(
-persnr INTEGER,
+persnr Serial,
 nummer INTEGER,
 bezeichnung varchar(255),
 FOREIGN Key(persnr) references person(persnr),
@@ -35,14 +35,14 @@ gegner varchar(255),
 ergebnis varchar(255)
 );
 create table spielt(
-persnr integer,
+persnr Serial,
 nummer integer,
 foreign key(persnr) references person(persnr),
 foreign key(nummer) references spieler(nummer)
 );
 
 create table angestellter(
-persnr INTEGER,
+persnr Serial,
 gehalt integer,
 ueberstunden integer,
 e_mail varchar(255),
@@ -50,13 +50,13 @@ FOREIGN Key(persnr) references person(persnr)
 );
 
 create table mitglied(
-persnr INTEGER,
+persnr Serial,
 beitrag integer,
 FOREIGN Key(persnr) references person(persnr)
 );
 
 create table trainer(
-persnr INTEGER,
+persnr Serial,
 nummer INTEGER,
 gehalt integer,
 von   date,
@@ -72,7 +72,7 @@ primary key(bezeichnung)
 );
 
 create table cheftrainer(
-persnr integer,
+persnr Serial,
 bezeichnung varchar(255),
 foreign key (persnr) references person(persnr),
 foreign key (bezeichnung)references mannschaft(bezeichnung)
@@ -90,18 +90,18 @@ primary key (sid)
 create table fanclub(
 name varchar(255),
 sid  integer,
-persnr integer,
+persnr Serial,
 gegruendet date,
 PRIMARY key(name),
 foreign key(sid) references standort(sid),
 foreign key(persnr) references person(persnr)
 );
 create table obmann(
-persnr integer,
+persnr Serial,
 foreign key(persnr) references person(persnr)
 );
 create table zeitraum(
-persnr integer,
+persnr Serial,
 name varchar(255),
 sid integer,
 anfang date,
@@ -112,9 +112,8 @@ foreign key (sid) references standort(sid)
 );
 
 create table assitrainer(
-persnr integer,
+persnr Serial,
 bezeichnung varchar(255),
 foreign key(persnr) references person(persnr),
 foreign key (bezeichnung) references mannschaft(bezeichnung)
 );
-
