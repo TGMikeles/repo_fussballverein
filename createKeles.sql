@@ -15,12 +15,12 @@ CREATE TABLE Mannschaft (
 ALTER TABLE Mannschaft ADD CONSTRAINT PK_Mannschaft PRIMARY KEY (bezeichnung);
 
 
-CREATE TABLE Person (
+CREATE TABLE Person ( --df:mult=10.0
  persnr Serial NOT NULL,
  vname VARCHAR(55), --df:
  nname VARCHAR(55),
- geschlecht CHAR(1),--df :pattern['M','W']
- gebdate DATE --df: date
+ geschlecht CHAR(1),--df :pattern(M|W)
+ gebdate DATE --df: date  start=1969-01-01 end=2005-01-01
 );
 
 ALTER TABLE Person ADD CONSTRAINT PK_Person PRIMARY KEY (persnr);
@@ -29,7 +29,7 @@ ALTER TABLE Person ADD CONSTRAINT PK_Person PRIMARY KEY (persnr);
 CREATE TABLE Spiel (
  mannschaft VARCHAR(55),
  datum DATE, --df:date
- gegner VARCHAR(55),
+ gegner VARCHAR(55), -- df:
  ergebnis VARCHAR(55)
 );
 
