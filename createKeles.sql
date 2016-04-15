@@ -1,119 +1,184 @@
-create table person(
-persnr Serial,
-vname  varchar(255),
-nname  varchar (255),
-geschlecht char(1),
-gebdat   date,
-PRIMARY KEY (persnr)
+
+-- df vorname: word=givennames.list
+-- df nachname: word=familynames.list
+-- df position: word=position.list
+-- df laender: word=laender.list
+-- df orte: word=orte.list
+-- df plz: word=postleitzahl.list
+
+CREATE TABLE Mannschaft (
+ bezeichnung VARCHAR(55) NOT NULL,
+ klasse VARCHAR(55),
+ naechstes_spiel VARCHAR(55)
 );
 
-create table spieler(
-bezeichnung VARCHAR(255),
-persnr Serial,
-nummer INTEGER,
-gehalt integer,
-position  varchar(255),
-von   date,
-bis   date,
-primary Key (nummer),
-FOREIGN Key(persnr) references person(persnr),
-FOREIGN KEY(bezeichnung) references mannschaft(bezeichnung)
+ALTER TABLE Mannschaft ADD CONSTRAINT PK_Mannschaft PRIMARY KEY (bezeichnung);
+
+
+CREATE TABLE Person (
+ persnr Serial NOT NULL,
+ vname VARCHAR(55), --df:
+ nname VARCHAR(55),
+ geschlecht CHAR(1),--df :pattern['M','W']
+ gebdate DATE --df: date
 );
 
-create table istkapitaen(
-persnr Serial,
-nummer INTEGER,
-bezeichnung varchar(255),
-FOREIGN Key(persnr) references person(persnr),
-FOREIGN Key(nummer) references spieler(nummer),
-foreign key (bezeichnung) references mannschaft(bezeichnung)
-);
-create table spiel(
-mannschaften varchar(255),
-datum date,
-gegner varchar(255),
-ergebnis varchar(255)
-);
-create table spielt(
-persnr Serial,
-nummer integer,
-foreign key(persnr) references person(persnr),
-foreign key(nummer) references spieler(nummer)
-);
+ALTER TABLE Person ADD CONSTRAINT PK_Person PRIMARY KEY (persnr);
 
-create table angestellter(
-persnr Serial,
-gehalt integer,
-ueberstunden integer,
-e_mail varchar(255),
-FOREIGN Key(persnr) references person(persnr)
-);
 
-create table mitglied(
-persnr Serial,
-beitrag integer,
-FOREIGN Key(persnr) references person(persnr)
-);
-
-create table trainer(
-persnr Serial,
-nummer INTEGER,
-gehalt integer,
-von   date,
-bis   date,
-FOREIGN Key(persnr) references person(persnr)
-);
-
-create table mannschaft(
-bezeichnung varchar(255),
-klasse varchar(255),
-naechstes_spiel date,
-primary key(bezeichnung)
-);
-
-create table cheftrainer(
-persnr Serial,
-bezeichnung varchar(255),
-foreign key (persnr) references person(persnr),
-foreign key (bezeichnung)references mannschaft(bezeichnung)
+CREATE TABLE Spiel (
+ mannschaft VARCHAR(55),
+ datum DATE, --df:date
+ gegner VARCHAR(55),
+ ergebnis VARCHAR(55)
 );
 
 
-create table standort(
-sid integer,
-land varchar(255),
-ort varchar(255),
-plz varchar(255),
-primary key (sid)
+CREATE TABLE Spieler (
+ persnr Serial NOT NULL,
+ nummer INT NOT NULL,
+ bezeichnung VARCHAR(55) NOT NULL,
+ position VARCHAR(55),
+ von DATE,
+ bis DATE,
+ gehalt  INT
 );
 
-create table fanclub(
-name varchar(255),
-sid  integer,
-persnr Serial,
-gegruendet date,
-PRIMARY key(name),
-foreign key(sid) references standort(sid),
-foreign key(persnr) references person(persnr)
-);
-create table obmann(
-persnr Serial,
-foreign key(persnr) references person(persnr)
-);
-create table zeitraum(
-persnr Serial,
-name varchar(255),
-sid integer,
-anfang date,
-ende date,
-foreign key(persnr) references person(persnr),
-foreign key(name) references fanclub(name),
-foreign key (sid) references standort(sid)
+ALTER TABLE Spieler ADD CONSTRAINT PK_Spieler PRIMARY KEY (persnr,nummer,bezeichnung);
+
+
+CREATE TABLE spielt (
+ persnr Serial NOT NULL,
+ nummer INT NOT NULL,
+ bezeichnung VARCHAR(55) NOT NULL,
+ dauer INT --df :pattern[0-90]
 );
 
-create table assitrainer(
-persnr Serial,
-bezeichnung varchar(255),
-foreign key(persnr) references person(persnr),
-foreign key (bezeichnung) references mannschaft(bezeichnung)
+ALTER TABLE spielt ADD CONSTRAINT PK_spielt PRIMARY KEY (persnr,nummer,bezeichnung);
+
+
+CREATE TABLE Standort (
+ sid INT NOT NULL,
+ land VARCHAR(255),
+ plz VARCHAR(255),
+ ort VARCHAR(255)
 );
+
+ALTER TABLE Standort ADD CONSTRAINT PK_Standort PRIMARY KEY (sid);
+
+
+CREATE TABLE Trainer (
+ persnr Serial NOT NULL,
+ gehalt INT,
+ von DATE,
+ bis DATE
+);
+
+ALTER TABLE Trainer ADD CONSTRAINT PK_Trainer PRIMARY KEY (persnr);
+
+
+CREATE TABLE Angestellter (
+ persnr Serial NOT NULL,
+ gehalt  INT,
+ ueberstunden  CHAR(10),
+ e_mail VARCHAR(55)
+);
+
+ALTER TABLE Angestellter ADD CONSTRAINT PK_Angestellter PRIMARY KEY (persnr);
+
+
+CREATE TABLE assitrainer (
+ persnr Serial NOT NULL,
+ bezeichnung VARCHAR(55) NOT NULL
+);
+
+ALTER TABLE assitrainer ADD CONSTRAINT PK_assitrainer PRIMARY KEY (persnr,bezeichnung);
+
+
+CREATE TABLE cheftrainer (
+ persnr Serial NOT NULL,
+ bezeichnung VARCHAR(55) NOT NULL
+);
+
+ALTER TABLE cheftrainer ADD CONSTRAINT PK_cheftrainer PRIMARY KEY (persnr,bezeichnung);
+
+
+CREATE TABLE istKapitaen (
+ persnr Serial NOT NULL,
+ nummer INT NOT NULL,
+ bezeichnung VARCHAR(55) NOT NULL
+);
+
+ALTER TABLE istKapitaen ADD CONSTRAINT PK_istKapitaen PRIMARY KEY (persnr,nummer,bezeichnung);
+
+
+CREATE TABLE Mitglied (
+ persnr Serial NOT NULL,
+ beitrag INT
+);
+
+ALTER TABLE Mitglied ADD CONSTRAINT PK_Mitglied PRIMARY KEY (persnr);
+
+
+CREATE TABLE Obmann (
+ persnr Serial NOT NULL
+);
+
+ALTER TABLE Obmann ADD CONSTRAINT PK_Obmann PRIMARY KEY (persnr);
+
+
+CREATE TABLE Zeitraum (
+ persnr Serial NOT NULL,
+ anfang  DATE,
+ ende DATE
+);
+
+ALTER TABLE Zeitraum ADD CONSTRAINT PK_Zeitraum PRIMARY KEY (persnr);
+
+
+CREATE TABLE fanclub (
+ name VARCHAR(255) NOT NULL,
+ persnr Serial NOT NULL,
+ gegruendet  DATE,
+ sid INT
+);
+
+ALTER TABLE fanclub ADD CONSTRAINT PK_fanclub PRIMARY KEY (name,persnr);
+
+
+ALTER TABLE Spieler ADD CONSTRAINT FK_Spieler_0 FOREIGN KEY (persnr) REFERENCES Person (persnr);
+ALTER TABLE Spieler ADD CONSTRAINT FK_Spieler_1 FOREIGN KEY (bezeichnung) REFERENCES Mannschaft (bezeichnung);
+
+
+ALTER TABLE spielt ADD CONSTRAINT FK_spielt_0 FOREIGN KEY (persnr,nummer,bezeichnung) REFERENCES Spieler (persnr,nummer,bezeichnung);
+
+
+ALTER TABLE Trainer ADD CONSTRAINT FK_Trainer_0 FOREIGN KEY (persnr) REFERENCES Person (persnr);
+
+
+ALTER TABLE Angestellter ADD CONSTRAINT FK_Angestellter_0 FOREIGN KEY (persnr) REFERENCES Person (persnr);
+
+
+ALTER TABLE assitrainer ADD CONSTRAINT FK_assitrainer_0 FOREIGN KEY (persnr) REFERENCES Trainer (persnr);
+ALTER TABLE assitrainer ADD CONSTRAINT FK_assitrainer_1 FOREIGN KEY (bezeichnung) REFERENCES Mannschaft (bezeichnung);
+
+
+ALTER TABLE cheftrainer ADD CONSTRAINT FK_cheftrainer_0 FOREIGN KEY (persnr) REFERENCES Trainer (persnr);
+ALTER TABLE cheftrainer ADD CONSTRAINT FK_cheftrainer_1 FOREIGN KEY (bezeichnung) REFERENCES Mannschaft (bezeichnung);
+
+
+ALTER TABLE istKapitaen ADD CONSTRAINT FK_istKapitaen_0 FOREIGN KEY (persnr,nummer,bezeichnung) REFERENCES Spieler (persnr,nummer,bezeichnung);
+ALTER TABLE istKapitaen ADD CONSTRAINT FK_istKapitaen_1 FOREIGN KEY (bezeichnung) REFERENCES Mannschaft (bezeichnung);
+
+
+ALTER TABLE Mitglied ADD CONSTRAINT FK_Mitglied_0 FOREIGN KEY (persnr) REFERENCES Person (persnr);
+
+
+ALTER TABLE Obmann ADD CONSTRAINT FK_Obmann_0 FOREIGN KEY (persnr) REFERENCES Mitglied (persnr);
+
+
+ALTER TABLE Zeitraum ADD CONSTRAINT FK_Zeitraum_0 FOREIGN KEY (persnr) REFERENCES Angestellter (persnr);
+
+
+ALTER TABLE fanclub ADD CONSTRAINT FK_fanclub_0 FOREIGN KEY (persnr) REFERENCES Obmann (persnr);
+ALTER TABLE fanclub ADD CONSTRAINT FK_fanclub_1 FOREIGN KEY (sid) REFERENCES Standort (sid);
