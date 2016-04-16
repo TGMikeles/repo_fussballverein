@@ -4,110 +4,217 @@
 -- fill table person (100)
 \echo # filling table person (100)
 COPY person (persnr,vname,nname,geschlecht,gebdate) FROM STDIN (ENCODING 'utf-8');
-38085	Dorolice	Andreatos	W	2016-04-15
-93847	Yeung	Aghi	W	2016-03-27
-47572	Duryonna	Baudais	W	2016-01-26
-58732	Valida	Brocato	M	2016-03-03
-15504	Kitt	\N	W	2016-01-11
-35588	Wallis	Hubers	W	2016-03-01
-53030	Baris	Hurtubise	W	2016-02-18
-57947	Florence	Janiszewski	W	2016-04-10
-23597	Corenda	Bankhead	M	2016-03-12
-18549	Netas	Spinks	W	2016-03-14
-51223	Emylee	Zajac	W	2016-03-13
-99872	Timm	Murdaugh	W	2016-01-28
-106803	Olympe	Coulson	W	2016-03-31
-108014	Dorthy	Vradmin	M	2016-01-19
-59169	Avinash	Glaser	W	2016-04-06
-109958	Riyaz	Kirby	W	2016-02-11
-72742	Marna	Furlow	M	2016-01-09
-73560	Jozsef	Scholey	M	2016-04-10
-69252	Fadi	Salim-Yasuda	M	2016-04-12
-45872	Biddy	Naguib	W	2016-01-22
-97110	Dickens	Mitchelson	M	2016-02-06
-21623	Alica	Shrieves	W	2016-01-14
-68759	\N	Fastfeat	W	2016-02-24
-10128	Cordula	Isaac	M	2016-04-11
-71349	DeAnne	Spence	M	2016-04-06
-52447	Katalin	Riley	M	2016-02-29
-42348	Charissa	Yeck	M	2016-03-01
-22306	Amaleta	Karam	M	2016-02-11
-57164	Drago	Korbe	M	2016-03-08
-95264	Fidelia	Garinger	W	2016-04-04
-22091	Dpnlab	Fouret	W	2016-03-29
-25737	Rogelio	Bowles	W	2016-03-30
-65180	Georges	Nassr	M	2016-03-17
-38082	Alica	Frierson	M	2016-02-16
-108487	Leni	Procner	W	2016-02-03
-88015	Yovonnda	Bashyam	M	2016-01-23
-106078	Lucia	Langelier	W	2016-04-12
-101850	Bernardo	Hodgens	M	2016-03-02
-55772	Lucina	Gagnier	M	2016-02-25
-88614	Mimi	Javallas-Ross	M	2016-04-03
-99160	Pollyanna	\N	W	2016-04-08
-60634	Reine	Weatherly	M	2016-03-18
-12040	Eleonore	Adorno	W	2016-03-11
-42731	Synful	Wheelock	W	2016-02-20
-69575	Alexina	Szabo	W	2016-02-26
-36620	Celestia	Panchmatia	W	2016-02-05
-95729	Achal	McBroom	W	2016-02-22
-94522	Yuen	Buder	W	2016-03-24
-74675	Mellisa	Pulver	W	2016-03-19
-94465	Arvind	Biedermann	W	2016-02-19
-48916	Mattie	Britton	M	2016-04-03
-69032	Kim-Minh	Congdon	W	2016-04-10
-16081	Terrell	Rangooni	W	2016-01-28
-18410	Merb	Russett	M	2016-02-27
-32818	Carita	Jahromi	M	2016-01-12
-64610	Willow	Degan	W	2016-03-23
-48382	Laurianne	Azer	W	2016-02-11
-45755	Jessika	Klimon	W	2016-02-13
-68701	Charley	Schesvold	W	2016-01-07
-44023	Halimeda	Rickard	M	2016-02-17
-66583	Jeff	Jagatic	M	2016-02-26
-23519	Mohammad	Adhem	M	2016-01-23
-49171	Brand	Livshits	M	2016-01-10
-75163	Katrina	Beresnikow	W	2016-02-04
-109334	Kathy	Demchuk	W	2016-01-31
-50036	Walliw	McClean	M	2016-02-03
-80167	Edlene	Payn	M	2016-01-23
-57423	Row	Dall oste	M	2016-03-21
-28441	Mavra	Sprigings	W	2016-02-04
-15818	Vilhelm	Escher	W	2016-03-04
-95592	Omar	Jubenville	M	2016-03-03
-47572	Asghar	Xayaraj	M	2016-02-09
-28753	Rosalyn	Dobbing	M	2016-03-24
-64329	Calypso	Tye	M	2016-02-06
-71637	Yeung	Mizerk	W	2016-02-17
-38993	Darrel	Calmejane	W	2016-01-13
-97277	Babette	Wark	M	2016-03-19
-18967	Aly	Samhaber	M	2016-04-08
-86366	Sela	Mcginley	W	2016-03-27
-84336	Maisie	Raine	M	2016-03-11
-98037	Carlo	Boggild	W	2016-02-17
-21314	Debbi	Brown-Gillard	M	2016-01-21
-28979	Wynn	Hermanns	W	2016-04-04
-29544	Malina	Cinicolo	M	2016-02-25
-13529	Sue-May	Stars	M	2016-01-17
-38081	Edmx	Canuel	M	2016-03-08
-47529	Meer	Wicht	M	2016-03-14
-36530	Sidonia	Robieux	M	2016-01-20
-38335	Asmar	Hunike	W	2016-04-12
-66058	Jess	Glasser	M	2016-03-01
-87615	Berneta	McCorquodale	W	2016-02-02
-35537	Anatoli	Couto	M	2016-01-13
-20226	Chitra	Buggie	W	\N
-18526	Hrinfo	Condurelis	M	2016-02-23
-101924	Cleo	Khalaf	M	2016-03-08
-41253	Edel	Morgan	M	2016-02-05
-98386	Bryant	Carranza	W	2016-03-18
-57180	Freddie	Jankowski	W	2016-02-14
-80455	Idalia	Collins	W	2016-01-26
-69116	Code	Brookes	W	2016-03-27
+10000	Domenico	Rogan	M	2016-03-29
+10002	Jacalyn	Baines	W	2016-03-13
+10004	Renate	Weathersbee	M	2016-01-15
+10006	Lai	Shiffer	W	2016-01-18
+10008	Gaffney	Underwood	W	2016-02-11
+10010	Yolanthe	Herriotts	M	2016-01-26
+10012	Edwina	Hurteau	W	2016-03-16
+10014	Franklyn	Ranoa	W	2016-03-02
+10016	Lesley	Nishihara	M	2016-01-13
+10018	Rajesh	Owens	W	2016-03-26
+10020	Erwin	Cher	W	2016-03-04
+10022	Miran	Kiernan	W	2016-01-09
+10024	Celestyn	Bruneau	W	2016-02-12
+10026	Sandye	Dalmard	W	2016-02-05
+10028	Ineke	Lisak	W	2016-04-14
+10030	Shannah	Furlin	W	2016-02-15
+10032	Palmer	Gutzmann	M	2016-04-10
+10034	Sibel	Michailov	W	2016-02-06
+10036	Danny	Moyano	M	2016-04-10
+10038	Annette	Jodoin	W	2016-01-11
+10040	Hailee	Altmann	W	2016-01-27
+10042	Damien	Shaughnessy	W	2016-02-25
+10044	Thuan	Cheshire	W	2016-01-27
+10046	Carmine	Finak	\N	2016-04-04
+10048	Gabrila	Smits	M	2016-04-09
+10050	Kailey	Lagace	M	2016-01-13
+10052	Sybil	Gyenes	W	2016-03-19
+10054	Thomasina	Laporte	M	2016-01-29
+10056	Gabrielle	Borojevic	W	2016-04-07
+10058	Freida	Kaoud	M	2016-03-15
+10060	Georgiana	Skof	M	2016-03-27
+10062	Erika	Semeniuk	W	2016-02-08
+10064	Dulce	Slattery	M	2016-03-15
+10066	Ilka	Hewitt	M	2016-01-15
+10068	Minda	Salehi	M	2016-04-04
+10070	Rochella	Poirier	W	2016-02-29
+10072	Wylma	Kusmider	M	2016-01-16
+10074	Valry	Meghani	M	2016-01-23
+10076	Aila	Kurian	W	2016-01-16
+10078	Sey-Ping	Heystraeten	M	2016-04-15
+10080	Zyg	Xpmbld	W	2016-03-28
+10082	Ros	Ruest	W	2016-04-13
+10084	Notley	Pachek	W	2016-04-01
+10086	Marina	Grainger	M	2016-03-11
+10088	Joannes	Poff	\N	2016-02-08
+10090	Willy	Alavi	M	2016-03-07
+10092	Buck	Gast	W	2016-01-23
+10094	Lyman	Instal	M	2016-03-26
+10096	Mamoru	Dery	M	2016-02-21
+10098	Pooh	Orser	M	2016-01-17
+10100	Cyndia	Blostein	M	2016-01-10
+10102	Kati	Subissati	W	2016-02-13
+10104	Clayton	Sydor	W	2016-01-27
+10106	Lisha	Karkotsky	M	2016-04-03
+10108	Arlana	Ayaz	M	2016-01-17
+10110	Lester	Petrunka	W	2016-03-20
+10112	Rickey	Dottin	M	2016-02-06
+10114	Marlane	Panesar	W	2016-02-14
+10116	Steinar	Unkles	M	2016-02-21
+10118	Hensley	Loperena	M	2016-02-01
+10120	Heike	Maycock	M	2016-02-21
+10122	Eleen	Kurdziel	M	2016-04-16
+10124	Olympe	MacPherson	W	2016-03-15
+10126	Zarah	McNitt	M	2016-03-31
+10128	Kristen	Trautman	W	2016-01-26
+10130	Daphna	Timler	M	2016-01-24
+10132	Janusz	Klaassen	M	2016-01-16
+10134	Tamma	Huhn	M	2016-01-14
+10136	Augustina	Soulliere	W	2016-04-10
+10138	Kannan	Caruth	W	2016-04-11
+10140	Ashly	Halpenny	M	2016-02-08
+10142	Row	Wainwright	W	2016-01-31
+10144	Ardenia	Dahl	M	2016-04-11
+10146	Marlee	Fenton	M	2016-04-06
+10148	Kameko	Gutierrez	M	2016-01-24
+10150	Dept	Newcombe	M	2016-02-13
+10152	Alejandrina	Kelso	W	2016-01-11
+10154	Elysee	Raaflaub	W	2016-03-22
+10156	Josepha	Carey	M	2016-01-08
+10158	Kira	Culkin	W	2016-03-15
+10160	Rui-Yuan	Bourahla	W	2016-01-14
+10162	Lilias	Buhr	W	2016-02-23
+10164	Prue	Tahir	M	2016-04-04
+10166	Emeline	Fernald	W	2016-01-16
+10168	Pete	Varughese	W	2016-02-26
+10170	Lisette	Dansereau	W	2016-02-11
+10172	Lu	Parulekar	W	2016-03-26
+10174	Lacie	\N	W	2016-02-15
+10176	Gillian	Horemans	W	2016-03-04
+10178	Armelle	O Conner	W	2016-01-26
+10180	Constancy	Perrin	W	2016-01-15
+10182	Krystalle	Szymanski	M	2016-03-25
+10184	Aris	Metherell	W	2016-01-20
+10186	Bobby	Danagher	W	2016-03-24
+10188	Tildi	Moen	W	2016-03-09
+10190	Rosalinde	McElligott	M	2016-03-14
+10192	Dalip	Maskell	W	2016-03-02
+10194	Annemarie	Ramachandran	W	2016-03-07
+10196	Rozamond	Drummond	M	2016-02-18
+10198	Ross	Standrin	M	2016-04-10
+\.
+
+-- fill table spieler (100)
+\echo # filling table spieler (100)
+COPY spieler (persnr,nummer,bezeichnung,position,von,bis,gehalt) FROM STDIN (ENCODING 'utf-8');
+10000	1	Emlynne	Colford	2001-05-07	2002-10-20	10070
+10002	2	Sarah	Letulle	1992-10-05	2014-09-12	10044
+10004	3	Jodine	Valko	2004-06-20	2004-10-25	10099
+10006	4	Sueanne	Bortolussi	1993-02-13	2012-08-17	10097
+10008	5	Leyla	Killeen	1984-05-15	2007-11-26	10057
+10010	6	Miof mela	Holton	1990-09-24	2006-11-20	10042
+10012	7	Moris	Sargeson	1993-12-12	2005-03-20	10094
+10014	8	Benoit	Armstead	1992-06-13	2004-05-21	10004
+10016	9	Tera	Dennis	2009-06-10	2005-10-28	10055
+10018	10	Glynda	McMahon	1997-11-22	2006-11-15	10085
+10020	11	Laurna	Basu	1993-05-29	2005-07-24	10012
+10022	12	Maidisn	Gopisetty	1979-04-23	2006-03-28	10043
+10024	13	Sidonia	Fernald	1996-10-24	2002-12-13	10076
+10026	14	Tas	Moyce	1982-08-10	2008-12-06	10085
+10028	15	Penelope	Gores	1980-12-26	2010-11-17	10045
+10030	16	Bettie	Svo	1987-07-26	2013-11-05	10028
+10032	17	Lac	Benavides	1990-06-24	2014-04-07	10088
+10034	18	Dahlia	Mitsui	1980-10-10	2008-04-08	10012
+10036	19	Jilli	Dai	1982-07-15	2003-05-30	10049
+10038	20	Sterling	Eakins	1980-12-28	2005-06-18	10041
+10040	21	Shirl	Hoffstedder	2003-08-01	2013-11-25	10070
+10042	22	Fancy	Varkey	2014-05-10	2006-10-18	10018
+10044	23	Josi	Anglin	1993-09-09	2004-01-20	10016
+10046	24	Xavier	Satterfield	1995-03-20	2011-07-01	10070
+10048	25	Mustapha	Poyner	1979-08-31	2012-10-31	10059
+10050	26	Illa	Veals	2009-11-18	2001-02-13	10029
+10052	27	Erin	Blasko	1998-08-21	2009-11-11	10056
+10054	28	Phillida	Mihan	1985-08-17	2008-05-16	10072
+10056	29	Rizwan	Levac	2006-12-07	2008-07-28	10008
+10058	30	Yetty	Ciaschi	2012-12-28	2005-07-27	10096
+10060	31	Rafaelia	Bissonnette	1997-08-25	2008-11-04	10015
+10062	32	Hengameh	Neilson	1988-06-24	2009-11-19	10076
+10064	33	Malcolm	Kaufman	1993-11-24	2002-07-29	10028
+10066	34	Ijff	McClean	2011-08-05	2006-01-08	10089
+10068	35	Eugene	Fredine	1992-10-14	2000-03-26	10091
+10070	36	Anitra	Klaudinyi	2003-10-11	2006-06-27	10073
+10072	37	Waneta	Gruber	1994-01-03	2003-04-23	10082
+10074	38	Marne	\N	1991-05-03	2001-11-08	10095
+10076	39	Moreen	Blackwell	1985-08-26	2005-12-16	10048
+10078	40	Julien	Irving	2003-06-25	2009-09-26	10033
+10080	41	Nakina	Matatall	1990-11-13	2004-02-29	10029
+10082	42	Ron	Prodmgmt	2003-07-22	2005-07-22	10033
+10084	43	Ahmet	Langelier	1987-02-03	2001-03-09	10042
+10086	44	Athar	Landriault	2012-09-19	2009-07-21	10019
+10088	45	Christer	Genet	2002-08-09	2014-10-07	10065
+10090	46	Lissi	Lui	1989-04-09	2007-02-01	10028
+10092	47	Aubrette	Crawford	2000-02-26	2004-10-11	10022
+10094	48	Lonee	Bertolini	2009-11-04	2008-07-03	10026
+10096	49	Idette	Jeronimo	1995-03-22	2008-06-12	10071
+10098	50	Dot	Taschereau	1981-11-02	2014-09-21	10082
+10100	51	Kiah	Hawken	1998-10-01	2009-04-08	10024
+10102	52	Miklos	Bunn	2013-03-29	2006-01-23	10023
+10104	53	Soyeh	Mills	1983-06-27	2002-07-27	10094
+10106	54	Building	Koens	2011-04-21	2014-01-15	10082
+10108	55	Collen	Meskimen	1993-01-05	2013-03-04	10033
+10110	56	Layananda	Armstead	1995-10-31	2001-08-13	10014
+10112	57	Bam	Mitchell	1982-04-22	2013-11-28	10048
+10114	58	Raychel	Ferguson	1994-10-20	2006-11-08	10095
+10116	59	Melody	Van Es	2002-04-02	2007-06-25	10057
+10118	60	Annis	Fulmer	1988-11-26	2005-06-30	\N
+10120	61	Moises	Bringhurst	1988-02-13	2009-04-03	10062
+10122	62	Marjy	Sawchuk	1998-06-07	2002-07-01	10033
+10124	63	Katina	Suprick	1991-07-17	2010-03-04	10042
+10126	64	Mahesh	Pastuszok	1999-11-11	2006-12-11	10065
+10128	65	Sunil	Boorse	1984-06-17	2014-05-12	10054
+10130	66	Florri	Chung	2001-11-02	2010-03-06	10066
+10132	67	Lenka	Doerksen	1981-09-16	2011-04-16	10043
+10134	68	Melody	Gupta	\N	2010-05-09	10030
+10136	69	Tatiana	Koerner	2010-01-28	2011-08-31	10079
+10138	70	Allianora	Bayola	1988-02-12	2012-08-31	10042
+10140	71	Odilia	Dinalic	1995-06-07	2004-08-14	10093
+10142	72	Ismail	Lepore	1984-04-08	2009-10-02	10024
+10144	73	Tory	Piette	1992-04-23	2011-12-08	10014
+10146	74	Evy	Mejia	1986-04-15	2014-07-14	10073
+10148	75	Larry	Leapheart	2006-02-20	2001-05-03	10083
+10150	76	Alene	Esguerra	1984-10-20	2010-11-09	10007
+10152	77	Jade	Weaver	1983-04-03	2006-09-16	10057
+10154	78	Irish	Kanno	1981-02-02	2009-02-22	10038
+10156	79	Vickie	Wilgosh	1992-06-25	2006-01-30	10018
+10158	80	Eleonora	Darou	2003-11-12	2008-09-15	10073
+10160	81	Bnrtor	Piitz	2001-09-14	2005-03-22	10066
+10162	82	Nicholas	Klammer	1998-12-21	2006-09-25	10044
+10164	83	Fausto	Ouimet	1999-12-18	2002-06-07	10069
+10166	84	Eleanora	Kammerer	1979-11-06	2005-10-08	10094
+10168	85	Johannah	Fullager	2012-12-18	2004-11-21	10019
+10170	86	Sharyl	DeRaaf	1980-06-10	2012-10-31	10059
+10172	87	Balakrishna	Kahil	2006-04-30	2012-03-24	10053
+10174	88	Omayma	Messier	2002-07-26	2003-06-17	10089
+10176	89	Phil	Shanahan	2006-02-05	2008-03-01	10038
+10178	90	Vahid	Anconetani	1987-09-07	2006-03-01	10016
+10180	91	Michelina	Nicolle	1981-05-12	2014-04-13	10033
+10182	92	Rae	Rajwani	1997-07-01	2010-10-15	10008
+10184	93	Kent	Paquette	1981-03-31	2002-07-04	10097
+10186	94	Amandy	Fujii	2011-03-11	2004-01-20	10000
+10188	95	Diena	Gewell	2000-06-19	2001-04-27	10014
+10190	96	Dari	Davidovich	2003-12-13	2009-12-08	10016
+10192	97	Lori	Shtulman	1991-10-26	2007-09-24	10094
+10194	98	Brandon	Finlayson	1985-11-01	2011-09-03	10083
+10196	99	Lottie	Tue	1999-10-11	2010-04-26	10025
+10198	100	Doria	Grau	2000-10-22	2013-01-20	10010
 \.
 
 -- restart sequences
 ALTER SEQUENCE person_persnr_seq RESTART WITH 109999;
+ALTER SEQUENCE spieler_persnr_seq RESTART WITH 109999;
 
 -- analyze modified tables
 ANALYZE person;
+ANALYZE spieler;
