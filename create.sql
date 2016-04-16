@@ -16,7 +16,7 @@ CREATE TABLE Mannschaft ( --df :mult=1.0
 CONSTRAINT PK_Mannschaft PRIMARY KEY (bezeichnung)
  );
 
-CREATE TABLE Person ( --df: mult=1.0
+CREATE TABLE Person ( --df: mult=4.0
  persnr Serial NOT NULL PRIMARY KEY, --df: offset=10000 step=2 size=99999
  vname VARCHAR(55), --df: text=vorname length=1
  nname VARCHAR(55), --df: text=nachname length=1
@@ -29,7 +29,7 @@ CREATE TABLE Person ( --df: mult=1.0
 
 
 CREATE TABLE Trainer (--df :mult=1.0
- persnr INT NOT NULL REFERENCES Person,--df :sub=serand
+ persnr INT NOT NULL REFERENCES Person,
  gehalt int,--df: offset=10000
   von DATE,-- df: start=2000-01-01 end=2005-01-01
  bis DATE, --df : end=2016-01-01
@@ -38,9 +38,36 @@ CONSTRAINT FK_Trainer_0 FOREIGN KEY (persnr) REFERENCES Person (persnr)
 );
 
 CREATE TABLE Standort (--df :mult=1.0
- sid INT NOT NULL, --df : int 
- land VARCHAR(255),--df :text=land.list length=1
- plz VARCHAR(255),--df :text=plz.list length=1
- ort VARCHAR(255),--df :text=ort.list length=1
+ sid INT NOT NULL, --df : offset=1
+ land VARCHAR(55), --df: text=land length=1
+ plz VARCHAR(55), --df: text=plz length=1
+ ort VARCHAR(55), --df: text=ort length=1
  Standort ADD CONSTRAINT PK_Standort PRIMARY KEY (sid)
+);
+
+CREATE TABLE Angestellter (--df: mult=1.0
+ persnr Serial NOT NULL REFERENCES Person,
+ gehalt decimal(10,2),--df:nogen
+ ueberstunden  INT,--df: offset=1 size=10
+ e_mail VARCHAR(255),--df :pattern='[a-z]{3,8}\.[a-z]{3,8}@(gmail|yahoo)\.com'
+ CONSTRAINT PK_Angestellter PRIMARY KEY (persnr),
+ CONSTRAINT FK_Angestellter_0 FOREIGN KEY (persnr) REFERENCES Person (persnr)
+);
+
+CREATE TABLE assitrainer (
+ persnr Serial NOT NULL REFERENCES Person,
+ bezeichnung VARCHAR(55) NOT NULL REFERENCES Mannschaft,
+ CONSTRAINT PK_assitrainer PRIMARY KEY (persnr,bezeichnung),
+ CONSTRAINT FK_assitrainer_0 FOREIGN KEY (persnr) REFERENCES Trainer (persnr),
+ CONSTRAINT FK_assitrainer_1 FOREIGN KEY (bezeichnung) REFERENCES Mannschaft (bezeichnung)
+);
+
+CREATE TABLE istKapitaen (
+ persnr Serial NOT NULL REFERENCES Person,
+ nummer INT NOT NULL REFERENCES Spieler,--df:nogen
+ bezeichnung VARCHAR(55) NOT NULL REFERENCES Mannschaft,
+ CONSTRAINT PK_istKapitaen PRIMARY KEY (persnr,nummer,bezeichnung),
+CONSTRAINT FK_istKapitaen_0 FOREIGN KEY (persnr,nummer,bezeichnung) REFERENCES Spieler (persnr,nummer,bezeichnung),
+CONSTRAINT FK_istKapitaen_1 FOREIGN KEY (bezeichnung) REFERENCES Mannschaft (bezeichnung)
+
 );
