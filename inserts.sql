@@ -4,1036 +4,1036 @@
 -- fill table mannschaft (100)
 \echo # filling table mannschaft (100)
 COPY mannschaft (bezeichnung,klasse,naechstes_spiel) FROM STDIN (ENCODING 'utf-8');
-Mannschaft1	Klasse3167	2016-03-18
-Mannschaft2	Klasse2922	2016-03-16
-Mannschaft3	\N	2016-03-12
-Mannschaft4	Klasse22463	2016-01-28
-Mannschaft5	Klasse12448	2016-01-12
-Mannschaft6	Klasse7620	2016-04-14
-Mannschaft7	Klasse6672	2016-03-05
-Mannschaft8	Klasse82369	2016-02-27
-Mannschaft9	Klasse67426	2016-04-11
-Mannschaft10	Klasse79265	2016-02-25
-Mannschaft11	Klasse94884	2016-03-05
-Mannschaft12	Klasse64297	2016-02-08
-Mannschaft13	Klasse11759	2016-01-16
-Mannschaft14	Klasse76319	2016-03-17
-Mannschaft15	Klasse73324	2016-03-12
-Mannschaft16	Klasse75680	2016-02-03
-Mannschaft17	Klasse13509	2016-01-16
-Mannschaft18	Klasse35492	2016-02-26
-Mannschaft19	Klasse93327	2016-04-08
-Mannschaft20	Klasse58562	2016-04-08
-Mannschaft21	Klasse69561	2016-03-20
-Mannschaft22	Klasse47828	2016-04-06
-Mannschaft23	Klasse85343	2016-01-19
-Mannschaft24	Klasse72119	2016-01-09
-Mannschaft25	Klasse53089	2016-02-19
-Mannschaft26	Klasse96078	2016-02-21
-Mannschaft27	Klasse23014	2016-01-29
-Mannschaft28	Klasse83016	2016-02-27
-Mannschaft29	Klasse794	2016-04-03
-Mannschaft30	Klasse18656	2016-03-26
-Mannschaft31	Klasse31496	2016-03-14
-Mannschaft32	Klasse68719	2016-03-29
-Mannschaft33	Klasse8962	2016-02-15
-Mannschaft34	Klasse37596	2016-01-14
-Mannschaft35	Klasse92093	2016-01-14
-Mannschaft36	Klasse9556	2016-04-15
-Mannschaft37	Klasse76832	2016-03-08
-Mannschaft38	Klasse9813	2016-03-27
-Mannschaft39	Klasse32769	2016-02-24
-Mannschaft40	Klasse6787	2016-02-01
-Mannschaft41	Klasse3844	2016-01-12
-Mannschaft42	Klasse55728	2016-03-21
-Mannschaft43	Klasse85758	2016-02-24
-Mannschaft44	Klasse52018	\N
-Mannschaft45	Klasse87732	2016-03-15
-Mannschaft46	Klasse50956	2016-03-05
-Mannschaft47	Klasse39213	2016-04-05
-Mannschaft48	Klasse43584	2016-02-20
-Mannschaft49	Klasse1609	2016-02-17
-Mannschaft50	Klasse56685	2016-04-13
-Mannschaft51	Klasse19433	2016-01-30
-Mannschaft52	Klasse7871	2016-03-30
-Mannschaft53	Klasse20657	2016-01-17
-Mannschaft54	Klasse23276	2016-02-20
-Mannschaft55	Klasse52117	2016-01-12
-Mannschaft56	Klasse56987	2016-02-11
-Mannschaft57	Klasse72235	2016-04-05
-Mannschaft58	Klasse35351	2016-03-27
-Mannschaft59	Klasse43967	2016-01-20
-Mannschaft60	Klasse40697	2016-02-24
-Mannschaft61	Klasse2704	2016-03-23
-Mannschaft62	Klasse31954	2016-02-19
-Mannschaft63	Klasse35742	2016-04-08
-Mannschaft64	Klasse75006	2016-02-05
-Mannschaft65	Klasse23468	2016-03-30
-Mannschaft66	Klasse12605	2016-03-03
-Mannschaft67	Klasse35182	2016-04-13
-Mannschaft68	Klasse29472	2016-04-03
-Mannschaft69	Klasse64534	2016-04-02
-Mannschaft70	Klasse79623	2016-02-04
-Mannschaft71	Klasse69637	2016-04-15
-Mannschaft72	Klasse932	2016-01-17
-Mannschaft73	Klasse7271	2016-01-29
-Mannschaft74	Klasse5156	2016-02-18
-Mannschaft75	Klasse13046	2016-03-04
-Mannschaft76	Klasse26290	2016-02-29
-Mannschaft77	Klasse11558	2016-04-14
-Mannschaft78	Klasse47841	2016-01-10
-Mannschaft79	Klasse31143	2016-02-10
-Mannschaft80	Klasse69396	2016-04-16
-Mannschaft81	Klasse75943	2016-03-03
-Mannschaft82	Klasse34612	2016-03-27
-Mannschaft83	Klasse15039	2016-04-15
-Mannschaft84	Klasse37853	2016-03-18
-Mannschaft85	Klasse73184	2016-01-26
-Mannschaft86	Klasse56091	2016-02-27
-Mannschaft87	Klasse93604	2016-02-02
-Mannschaft88	Klasse26489	2016-03-28
-Mannschaft89	Klasse45689	2016-03-11
-Mannschaft90	Klasse9583	2016-03-25
-Mannschaft91	Klasse80106	2016-01-28
-Mannschaft92	Klasse93514	\N
-Mannschaft93	Klasse73984	2016-02-11
-Mannschaft94	Klasse39802	2016-03-30
-Mannschaft95	Klasse71823	2016-02-10
-Mannschaft96	Klasse40315	2016-02-11
-Mannschaft97	Klasse94376	2016-02-22
-Mannschaft98	Klasse25693	2016-01-26
-Mannschaft99	Klasse59767	2016-01-10
-Mannschaft100	Klasse39039	2016-04-10
+Mannschaft1	Klasse43701	\N
+Mannschaft2	Klasse65687	2016-04-01
+Mannschaft3	Klasse93508	2016-03-24
+Mannschaft4	Klasse62465	2016-02-16
+Mannschaft5	Klasse2292	2016-01-24
+Mannschaft6	Klasse22202	2016-02-09
+Mannschaft7	Klasse16597	2016-02-14
+Mannschaft8	Klasse32299	2016-01-31
+Mannschaft9	Klasse49904	2016-03-01
+Mannschaft10	Klasse25479	2016-04-07
+Mannschaft11	Klasse32902	2016-02-16
+Mannschaft12	Klasse4923	2016-03-18
+Mannschaft13	Klasse64559	2016-04-01
+Mannschaft14	Klasse56211	2016-01-15
+Mannschaft15	Klasse29756	2016-02-09
+Mannschaft16	Klasse67696	2016-04-06
+Mannschaft17	Klasse5461	2016-04-11
+Mannschaft18	Klasse71841	2016-04-04
+Mannschaft19	Klasse15829	2016-01-31
+Mannschaft20	Klasse56988	2016-01-22
+Mannschaft21	Klasse35886	2016-02-23
+Mannschaft22	Klasse67934	2016-02-15
+Mannschaft23	Klasse92004	2016-01-29
+Mannschaft24	Klasse64304	2016-04-13
+Mannschaft25	Klasse17724	2016-01-23
+Mannschaft26	Klasse83553	2016-03-28
+Mannschaft27	Klasse36860	2016-04-12
+Mannschaft28	Klasse31391	2016-02-05
+Mannschaft29	Klasse48527	2016-03-27
+Mannschaft30	Klasse26174	2016-01-23
+Mannschaft31	Klasse14597	2016-03-24
+Mannschaft32	Klasse79335	2016-03-20
+Mannschaft33	\N	2016-02-12
+Mannschaft34	Klasse25925	2016-02-01
+Mannschaft35	Klasse99703	2016-03-17
+Mannschaft36	Klasse70394	2016-04-05
+Mannschaft37	Klasse25095	2016-04-07
+Mannschaft38	\N	2016-02-19
+Mannschaft39	Klasse30525	2016-01-15
+Mannschaft40	Klasse22814	2016-02-29
+Mannschaft41	Klasse83771	2016-04-05
+Mannschaft42	Klasse23852	2016-02-29
+Mannschaft43	Klasse7092	2016-02-16
+Mannschaft44	Klasse715	2016-02-04
+Mannschaft45	Klasse51752	2016-01-09
+Mannschaft46	Klasse50637	2016-04-03
+Mannschaft47	Klasse55557	2016-01-31
+Mannschaft48	Klasse66064	2016-02-22
+Mannschaft49	Klasse19618	2016-04-12
+Mannschaft50	Klasse70926	2016-02-07
+Mannschaft51	Klasse58059	2016-04-04
+Mannschaft52	Klasse93224	2016-04-14
+Mannschaft53	Klasse963	2016-03-25
+Mannschaft54	Klasse97986	2016-02-26
+Mannschaft55	Klasse4847	2016-02-15
+Mannschaft56	Klasse6703	2016-02-15
+Mannschaft57	Klasse25923	2016-03-15
+Mannschaft58	Klasse203	2016-04-12
+Mannschaft59	Klasse10958	2016-03-15
+Mannschaft60	Klasse87831	2016-04-11
+Mannschaft61	Klasse79697	2016-01-20
+Mannschaft62	Klasse29881	2016-03-26
+Mannschaft63	Klasse20846	2016-04-07
+Mannschaft64	Klasse30303	2016-03-30
+Mannschaft65	Klasse38475	2016-02-21
+Mannschaft66	Klasse92296	2016-03-08
+Mannschaft67	Klasse57927	2016-04-03
+Mannschaft68	Klasse90427	2016-01-19
+Mannschaft69	Klasse59964	2016-01-13
+Mannschaft70	Klasse38751	2016-02-11
+Mannschaft71	Klasse34566	2016-04-16
+Mannschaft72	Klasse31530	2016-03-21
+Mannschaft73	Klasse17147	2016-01-31
+Mannschaft74	Klasse77961	2016-02-24
+Mannschaft75	Klasse7702	2016-03-28
+Mannschaft76	Klasse41352	2016-04-02
+Mannschaft77	Klasse60163	2016-02-17
+Mannschaft78	Klasse92675	2016-04-15
+Mannschaft79	Klasse82411	2016-02-06
+Mannschaft80	Klasse92158	2016-02-03
+Mannschaft81	Klasse4385	2016-03-26
+Mannschaft82	Klasse49490	2016-02-04
+Mannschaft83	Klasse44211	2016-03-25
+Mannschaft84	Klasse62175	2016-01-23
+Mannschaft85	Klasse87305	2016-02-14
+Mannschaft86	Klasse57458	2016-03-19
+Mannschaft87	Klasse27255	2016-03-13
+Mannschaft88	\N	2016-02-07
+Mannschaft89	Klasse43302	2016-02-18
+Mannschaft90	Klasse3755	2016-01-23
+Mannschaft91	Klasse2452	2016-02-13
+Mannschaft92	Klasse89708	2016-02-24
+Mannschaft93	Klasse3909	2016-03-26
+Mannschaft94	Klasse47611	2016-03-10
+Mannschaft95	Klasse90748	2016-04-13
+Mannschaft96	Klasse34180	2016-03-27
+Mannschaft97	Klasse59448	2016-02-01
+Mannschaft98	Klasse42625	2016-01-13
+Mannschaft99	Klasse44157	2016-03-08
+Mannschaft100	Klasse51268	2016-04-08
 \.
 
 -- fill table person (400)
 \echo # filling table person (400)
 COPY person (persnr,vname,nname,geschlecht,gebdate) FROM STDIN (ENCODING 'utf-8');
-10000	Viktor	Madhavan	M	2015-12-21
-10002	Qainsp	Holthaus	W	2016-01-13
-10004	Viole	Axberg	M	2015-06-30
-10006	Ainsley	Fisprod	M	2016-01-31
-10008	Shailendra	Boatwright	W	2015-03-24
-10010	Marcelia	\N	M	2015-03-17
-10012	Arabella	Ogrodnik	M	2015-05-27
-10014	Ehab	Mohrmann	W	2016-02-09
-10016	Corri	Bachelu	M	2015-11-20
-10018	Kung	Luzarraga	\N	2015-12-04
-10020	Dierdre	Rangaswami	M	\N
-10022	Binni	Bouroncle	W	2015-05-03
-10024	Merlin	Medlin	M	2016-04-02
-10026	Querida	Pageau	W	2015-10-04
-10028	Maryl	Borson	W	2015-07-10
-10030	Praveen	Graziano	M	2015-12-24
-10032	Blondelle	Mouat	M	2015-04-25
-10034	Priscella	Racette	M	2015-03-27
-10036	Christie	Jankowski	W	2015-09-03
-10038	Eamon	Milloy	M	2015-12-17
-10040	Colline	Purington	W	2015-10-05
-10042	Nj	Bomstein	M	2016-03-29
-10044	Perl	Ryals	M	2015-05-06
-10046	Sabah	Soussa	M	2015-06-10
-10048	Zainab	Patoka	M	2015-11-19
-10050	Clarie	Smeenk	M	2015-06-08
-10052	Chanh	Parkin	W	2015-12-25
-10054	Leandra	Waletzky	\N	\N
-10056	William	Cowen	W	2015-10-02
-10058	Ginn	Das	M	2016-01-17
-10060	Willamina	Bousfield	W	2015-12-06
-10062	Shanie	Bradlow	M	2016-04-01
-10064	Florry	Powers	W	2015-06-02
-10066	Adri	Ziehn	M	2015-11-10
-10068	Lorianna	Horstman	M	2015-06-02
-10070	Selime	Le	W	2016-03-16
-10072	Persis	Benda	M	\N
-10074	Fredra	Hartleb	W	2016-03-14
-10076	Node	Toperzer	W	2015-11-13
-10078	Gracia	Dunnett	W	2015-08-05
-10080	Tayeb	Siddell	M	2015-05-29
-10082	Sky	Denton	W	2015-08-29
-10084	Tori	Lehtovaara	M	\N
-10086	Sharron	Maleski	M	2015-12-18
-10088	Chen-Jung	Pullan	M	2015-10-25
-10090	Madlin	Brannan	M	2015-12-26
-10092	Mufinella	Speight	M	2015-07-14
-10094	Azra	Laughridge	M	2015-07-23
-10096	Carling	Fildey	M	2015-08-20
-10098	Collen	Throgmorton	W	2015-06-12
-10100	Taiwana	Alburger	M	2015-10-03
-10102	Page	Nizman	W	2015-05-06
-10104	Orden	Cisco	M	2015-07-21
-10106	JR	Kositpaiboon	W	2016-01-18
-10108	Ioana	Gutcher	M	2015-04-15
-10110	Vinny	Hehn-Schroeder	M	2015-12-26
-10112	Darlleen	Waldie	M	2016-03-10
-10114	Caria	Katchmar	M	2016-03-01
-10116	Girish	Whetston	W	2015-12-06
-10118	Marieann	Fujii	M	2015-04-12
-10120	Glynn	Mignault	M	2015-09-16
-10122	Desirae	Pufpaff	W	2015-04-11
-10124	Blake	Brandstadt	M	2016-03-11
-10126	Larisa	Kupferschmidt	W	2016-02-05
-10128	Liane	Marrec	M	2016-03-30
-10130	Jerome	Zumpf	W	2015-09-29
-10132	Ardella	Schmitz	W	2016-02-25
-10134	Roly	Tutt	W	2015-09-27
-10136	Dana	Ellis	M	2015-05-26
-10138	Dorree	Prestia	W	2015-08-01
-10140	Minnaminnie	Lyons	W	2015-06-30
-10142	Milou	Warun	M	2015-06-20
-10144	Nabil	Mabuchi	W	2015-04-04
-10146	Glen	Schlachter	W	2016-02-01
-10148	Phelia	McLaren	M	2015-04-25
-10150	Myrtice	Ottowa	M	2016-03-20
-10152	Shahab	Buczek	W	2015-11-16
-10154	Griet	Bolly	W	2016-02-01
-10156	Gracomda	Baragar	M	2016-03-13
-10158	Milzie	Marciniuk	W	2015-04-29
-10160	Kelsi	Fielding	M	2015-07-07
-10162	Pansy	Smuda	W	2015-04-27
-10164	Grissel	Brokaw	W	2015-08-24
-10166	Hubert	Dutil	W	2015-07-28
-10168	Chung-Cheung	Callos	W	2015-11-29
-10170	Dyan	Drop-Box	W	2016-04-15
-10172	Dulci	Venning	W	2016-02-16
-10174	Hattie	Atchison	W	2015-05-21
-10176	Arlette	Farnsworth	M	2015-07-01
-10178	Betteanne	Omura	W	2015-10-05
-10180	Olimpia	Wiegand	M	2015-05-12
-10182	Goran	Hutson	M	2015-12-09
-10184	Thrift	Vandagriff	W	2015-04-01
-10186	Liesa	Huang	W	2015-04-11
-10188	Nolana	Kornachuk	M	2016-01-05
-10190	Milou	Seeler	W	2016-01-06
-10192	Belle	Thieken	M	2015-12-22
-10194	Edouard	Greveling	M	2016-03-29
-10196	Tawauna	McTurner	W	2015-03-20
-10198	Andriana	Bujold	W	2015-04-18
-10200	Erzsebet	Bottoms	W	2016-04-05
-10202	Mirabelle	Panchmatia	W	2015-05-16
-10204	Kitson	Caudle	M	2016-04-09
-10206	Morrie	Woodlief	M	2015-04-24
-10208	Danni	Sommerfeld	M	2016-02-07
-10210	Reginald	Musgrove	M	2016-01-14
-10212	Charley	Operator	W	2015-11-10
-10214	Ayako	Kathie	M	2016-01-02
-10216	Valida	Cummings	M	2015-10-04
-10218	Michal	PATCOR	W	2015-09-11
-10220	Jordan	Cohoe	W	2015-05-23
-10222	Nashville	Fanthome	W	2016-01-26
-10224	Florine	Brans	\N	2015-09-27
-10226	Albrecht	Panton	W	2015-03-31
-10228	Laurel	Datta	M	2015-04-07
-10230	Rici	Parisen	W	2015-11-16
-10232	Hrdata	Shishakly	W	2015-09-15
-10234	Jelene	Spurway	W	2016-03-08
-10236	Dorris	Littlewood	W	2016-03-02
-10238	Leila	Deslandes	M	2015-10-25
-10240	Baets	Colgan	W	2015-07-18
-10242	Tab	Simcoe	M	2015-12-14
-10244	Roselle	Barstow	W	2016-03-23
-10246	Bo	Sheikh	M	2015-04-14
-10248	Yolanthe	Heyward	W	2015-08-05
-10250	Snair	Cheuk	W	2015-05-04
-10252	Christal	Blanchet	W	2016-04-08
-10254	Nils	Feist	M	2015-03-17
-10256	Sales	Chamayou	W	2015-08-25
-10258	Shanie	Dowd	M	2016-03-20
-10260	Martha	Sarbutt	W	2016-02-01
-10262	Franni	Hulett	W	2015-10-08
-10264	Kerrin	Terzian	M	2015-07-07
-10266	Ariela	Donohoe	M	2015-10-09
-10268	Raz	Bannard	M	2015-11-22
-10270	Dnadoc	Skelly	W	2015-07-13
-10272	\N	Smyth	W	2015-08-21
-10274	Luise	Miao	M	2015-12-13
-10276	Wandie	Bardsley	W	2015-10-26
-10278	Rosene	Fullager	M	2015-06-28
-10280	\N	Kohalmi	W	2015-12-31
-10282	Marko	Herren	M	2016-01-23
-10284	Ninon	Briard	W	2016-03-14
-10286	Leung	Verhotz	M	2016-01-30
-10288	Shinichiro	\N	M	2015-06-11
-10290	Idus	Intemann	M	2015-11-29
-10292	Randa	Drolet	M	2015-10-17
-10294	Hoy	Kuzz	W	2015-04-02
-10296	Suk-Yin	Jachym	M	2016-03-30
-10298	Hadi	Jee	M	2015-08-14
-10300	Concordia	Colley	M	2015-04-30
-10302	Theodore	\N	M	2015-11-15
-10304	Fayma	Dikens	M	2015-05-27
-10306	Wee-Lin	Ortiz	W	2016-03-15
-10308	Wilford	McCue	M	2016-03-12
-10310	Den	Kurniawan	W	2015-05-14
-10312	Charee	Tidball	W	2015-11-22
-10314	Margret	Yamin	M	2015-07-10
-10316	Japan	Houle	M	2015-05-06
-10318	Avie	Swartz	M	2016-01-19
-10320	Tayeb	Mansi	M	2016-03-24
-10322	Dulcy	Isley	M	2015-10-05
-10324	Nichol	Ceponis	M	2015-07-23
-10326	Jason	McNeal	M	2015-12-18
-10328	Johnnie	Bulz	M	2015-10-19
-10330	Elwyn	Farrell	M	2015-12-28
-10332	Felicle	Wahab	M	2015-05-28
-10334	Desiree	St.John	M	2016-02-16
-10336	Daune	Chanonat	M	2015-11-02
-10338	Toyanne	Ko	W	2015-11-18
-10340	VuHoan	Oshiro	W	2016-01-20
-10342	Nevil	Chui	W	2015-06-13
-10344	Daffi	Records	M	2015-10-28
-10346	Riyad	Hsu	M	2015-03-20
-10348	Dyana	Gilmore	M	2015-09-05
-10350	Anderson	Kasbia	W	\N
-10352	Hank	Winje	M	2015-06-05
-10354	Marjorie	Borgia	M	2015-11-20
-10356	Cassaundra	Dokuzoguz	M	2015-05-16
-10358	Yc	Kirkland	W	2015-12-11
-10360	Leora	Chesterfield	M	2015-09-26
-10362	Malik	Gaiotti	W	2015-11-30
-10364	Aybars	Wiggins	W	2015-12-23
-10366	Shailin	Moseby	M	2015-04-28
-10368	Wakako	Bunn	W	2016-03-26
-10370	Nonah	Crumpton	W	2015-03-29
-10372	Joke	Scovill	M	2015-12-04
-10374	Clem	Beaupre	W	2015-10-19
-10376	Jordan	Tsai	M	\N
-10378	Melisandra	Flaherty	M	2015-07-11
-10380	Ermo	KleynenbergNTRTPB	M	2015-04-29
-10382	Gee-Meng	Nehring	W	2015-05-22
-10384	Crysta	Pitts	M	2015-08-06
-10386	Melba	Robinson	W	2015-11-16
-10388	Ardra	Nys	M	2015-05-22
-10390	Elwood	Milaknis	W	2015-11-04
-10392	Joya	Newby	M	2015-07-11
-10394	Wes	Houston	W	2015-10-28
-10396	Winni	Cacha	W	2015-07-02
-10398	Sean	Duyck	M	2015-06-01
-10400	Veronica	Hadel	W	2016-01-21
-10402	Gina	Bissonnette	M	2015-06-23
-10404	Donita	Heckman	M	2016-03-31
-10406	Reza	Drummond	W	2015-08-21
-10408	Anderson	Ruiz	M	2015-09-24
-10410	Pearle	Mathis	W	2016-01-07
-10412	Quon	Souza	W	2015-12-07
-10414	Angele	Fehr	W	2015-06-01
-10416	Anya	Ledou	M	2015-03-28
-10418	Fayina	Churas	W	2015-05-02
-10420	Savita	Dunnion	W	2016-03-02
-10422	Dia-Edin	Meszaros	W	2015-05-27
-10424	Ottilie	Stephen	W	2015-11-11
-10426	Rodger	Reports	M	2015-06-21
-10428	Saba	Sanchez	M	2015-09-27
-10430	Lora-Lee	Coathup	M	2016-04-04
-10432	Quynh	Cowen	M	2015-11-20
-10434	Theadora	Bosy	M	2015-12-29
-10436	Mag	Plamondon	M	2015-07-27
-10438	Cam	Umphres	M	2015-11-12
-10440	Arun	Davids	W	2015-10-18
-10442	Cristy	Acton	W	\N
-10444	Subi	McLenaghan	\N	2015-04-10
-10446	Alisha	Zilaie	W	2015-10-19
-10448	Kalli	Stegmueller	M	2015-09-02
-10450	Elyssa	Jarboe	W	2015-05-07
-10452	Grata	St.Pierre	M	2015-04-19
-10454	Hatty	Kinney	W	2015-06-02
-10456	Takako	Roundy	W	2015-10-29
-10458	Frances	Decarie	W	2015-11-16
-10460	Nelleke	Meche	W	2016-01-25
-10462	Bruno	Jemczyk	M	2016-02-22
-10464	Maurijn	Farronato	M	2015-11-03
-10466	Veradis	Siu	W	2015-11-13
-10468	Yolane	Lineham	W	2015-08-15
-10470	Mkt	Ferriss	M	2015-11-29
-10472	Howard	Suprick	W	2015-04-21
-10474	\N	Bulmer	W	2016-03-21
-10476	Chandrakant	Kahtasian	M	2016-02-20
-10478	Desire	Gooley	M	2016-03-10
-10480	Jewelle	Ancel	M	2015-07-12
-10482	Donnamarie	Interaction	W	2015-06-29
-10484	Krystn	DPP	W	2016-04-04
-10486	Meridel	Weidinger	M	2015-10-18
-10488	Voort	Hazlett	W	2015-12-05
-10490	Engracia	Polder	W	2015-09-11
-10492	Frederic	Killam	M	2015-09-15
-10494	Colly	Chiabaut	M	2015-09-09
-10496	Aile	\N	W	2015-07-22
-10498	Desiri	DeFord	M	2015-12-07
-10500	Ellis	Leitrick	W	2015-04-21
-10502	Turkey	Dobbs	W	2016-03-11
-10504	Buda	Bahgat	M	2016-03-24
-10506	Clemente	Bolio	W	2015-12-13
-10508	Shalna	Dasilva	M	2016-03-30
-10510	Anne-marie	Schallenberg	W	2015-07-08
-10512	Katha	Godish	M	2015-08-08
-10514	Mihaela	Playatuna	W	2015-06-12
-10516	Jerrylee	Cowell	W	2015-12-05
-10518	Kathrine	Dupuis-Mignault	W	2015-08-28
-10520	Jaquith	Kikuta	M	2015-06-21
-10522	Daryl	Krenos	W	2016-04-15
-10524	Saleh	Bach	M	2016-04-09
-10526	Phillida	Cuper	W	2015-08-31
-10528	Zorana	Fatica	W	2015-11-29
-10530	Sigrid	Pdesupport	M	2015-10-15
-10532	Donald	Popa	W	2015-07-26
-10534	Missagh	Zaman	M	\N
-10536	Karolina	Tadlock	W	2015-05-18
-10538	Cyndi	Silva	W	2016-03-04
-10540	Kalindi	Schallenberg	M	2015-09-08
-10542	Emily	Shurtleff	W	2016-03-05
-10544	Yoshiaki	Dana	W	2015-12-25
-10546	Clotilda	Treen	W	2015-12-04
-10548	The	O Hearn	W	2015-03-19
-10550	Janaye	Vmsupport	M	2016-04-09
-10552	Aggie	Eskicioglu	W	2015-10-27
-10554	Huan-yu	Saifullah	M	2016-01-05
-10556	Shay	Koiste	W	\N
-10558	Denver	Wenham	\N	2015-08-04
-10560	Lynn	Dilallo	M	2015-10-16
-10562	Livvy	Tabor	W	2015-05-04
-10564	Rebeka	Kahil	M	2015-10-21
-10566	Brigida	Fiteny	M	2015-09-14
-10568	Kazuko	McPhaden	M	2015-08-04
-10570	Amandip	Lebars	M	2015-12-02
-10572	Sarette	Kamal	M	2015-09-24
-10574	Darrell	Hyslop	M	2016-01-14
-10576	Carolle	Nugent	M	2015-12-26
-10578	Quang-Trung	Nicholson	W	2015-10-11
-10580	Viole	Brennen	W	2015-12-11
-10582	Tomoyoshi	Piske	M	2015-08-08
-10584	Kemp	Nyberg	M	2015-07-19
-10586	Jutta	Schnell	W	2016-01-18
-10588	Leslie	Tsortos	W	2016-02-05
-10590	Catie	Dinsmore	W	2015-07-04
-10592	Tatsuya	Verrilli	M	2015-08-25
-10594	Syl	McAfee	W	2015-08-01
-10596	Tybie	Phagan	M	2015-03-30
-10598	Teodora	Murash	M	2015-08-21
-10600	Francis	Stennett	M	2016-01-04
-10602	DeeAnn	Dantzler	W	2015-05-08
-10604	Dau	Winje	W	2015-12-12
-10606	Regine	Steffes	W	2016-04-09
-10608	Tetsuya	Sidorovsky	M	2015-10-14
-10610	Myrthille	Mills	W	2015-11-13
-10612	Jewel	Spriggs	W	2016-03-04
-10614	Sonni	Kaigler	M	2015-06-03
-10616	Dpnis	Commons	W	2015-10-14
-10618	Dedie	Korbel	M	2015-04-07
-10620	Amina	Benschop	M	2015-04-17
-10622	Lynnet	Herring	W	2015-12-08
-10624	Farzad	Swails	M	2015-05-20
-10626	Francisca	Ertan	M	2015-12-16
-10628	Arno	Skopliak	W	2015-09-07
-10630	Gloriana	Costas	W	2015-11-19
-10632	Dyan	Orlando	W	2016-01-11
-10634	Raquela	Hermann-Kendall	M	2015-11-30
-10636	Clarence	McCleery	W	2015-12-24
-10638	Mary-Michelle	Ermey	W	2015-11-20
-10640	Jozsef	Gustlin	M	2015-07-28
-10642	Dulciana	Caple	M	2016-03-23
-10644	Vonnie	Wasitova	W	2015-09-15
-10646	\N	Schaefer	M	2015-04-11
-10648	Hally	Hartin	M	2015-11-21
-10650	Madella	Haigh	M	2015-09-08
-10652	Paper	Lecompte	M	2015-05-15
-10654	Anver	Rozen	M	2016-03-25
-10656	\N	Valiveti	M	2015-07-18
-10658	Tarik	Estey	W	2016-04-12
-10660	Howie	Sides	W	2015-03-26
-10662	Cortney	Pao	M	2015-11-01
-10664	Christi	Weitz	W	2015-07-17
-10666	Kin-Wai	Overdyke	W	2015-10-02
-10668	Octavio	Partello	W	2015-12-23
-10670	Marjet	Drago	W	2015-07-21
-10672	Kally	Langley	W	2016-01-25
-10674	Corrina	Dowell	W	2016-02-10
-10676	Andie	Lafever	W	2015-06-24
-10678	Gui	Cuffle	M	2015-04-28
-10680	Milzie	Flores	W	2016-01-30
-10682	Los	Lazar	M	2015-10-11
-10684	Blinnie	Blake-Knox	W	2015-12-14
-10686	Elton	Stephans	M	2015-04-21
-10688	Kassie	Neywick	M	2016-04-15
-10690	Nevein	Hernon	M	2015-10-03
-10692	Burgess	Holberry	M	2015-06-10
-10694	Tas	Duchesne	M	2016-04-05
-10696	Genna	Brombal	M	2015-08-30
-10698	Kassi	Bowab	W	2015-10-15
-10700	Odette	Rusch	M	2015-09-25
-10702	Elizalde	Manickam	W	2015-07-26
-10704	Livvie	Metzger	M	2015-05-25
-10706	Edwina	WAR	M	2015-07-24
-10708	Kandy	Sprunger	M	2016-03-15
-10710	Kent	Gorhum	M	2015-03-18
-10712	Hynda	NetTeam	M	2016-01-31
-10714	Akihiko	Kessel	W	2016-01-04
-10716	Ned	Urquhart	W	2015-06-21
-10718	Fredi	Guth	W	2015-11-16
-10720	Dorita	Eveleigh	M	2016-02-14
-10722	Regis	Saltsider	M	2016-01-14
-10724	Teddy	Kempffer	M	2015-08-02
-10726	Amaleta	Daly	M	2016-04-13
-10728	Camel	Singham	W	2015-04-10
-10730	Margaretha	Brans	W	2015-11-17
-10732	Ciel	Lazarowich	M	2015-05-05
-10734	Kaia	Sankey	W	2015-10-27
-10736	Auguste	Bachelu	M	2015-10-30
-10738	Rachele	Grossutti	W	2015-12-19
-10740	Letti	Choptovy	W	2015-06-04
-10742	Cat	Wiebe	M	2015-11-08
-10744	Kimbra	Virchick	W	2015-06-18
-10746	Kali	Yun	M	2015-05-15
-10748	Iormina	Slinkard	M	2015-07-21
-10750	Huan-yu	Denemark	W	2016-01-21
-10752	Elbert	Larabie	W	2015-10-20
-10754	Cindra	Rch	M	2015-06-01
-10756	Sedigheh	Ganadry	M	2016-03-31
-10758	Desiri	Balcom	W	2016-04-01
-10760	Syl	Morino	M	2016-04-12
-10762	Goska	Dalmard	W	2015-11-02
-10764	Grace	Creecy	M	2015-04-30
-10766	Myrtice	Schieber	W	2015-07-10
-10768	Ferdinande	Pena-Fernandez	M	2015-10-03
-10770	Ioan	Steffes	M	2015-12-09
-10772	Cathe	Ramsay	M	2015-10-31
-10774	Hemant	Digilio	W	2016-03-03
-10776	Benetta	Marriott	M	2015-07-19
-10778	John	Pozzi	M	2015-05-18
-10780	Subramaniam	Royer	W	2015-09-15
-10782	Thaddeus	Tena	M	2016-04-03
-10784	Kazuo	Mullaney	M	2015-11-23
-10786	Anica	Mandel	M	2016-03-15
-10788	Vipi	Beaty	W	2015-09-09
-10790	Marrissa	Dedas	M	2015-08-27
-10792	Wilma	Benedek	W	2015-06-25
-10794	Myrthille	Marzella	W	2015-12-26
-10796	Elnora	Paliga	M	2015-03-25
-10798	Eddie	Janovich	M	2015-10-27
+10000	Onida	Lawlor	W	2015-12-26
+10002	Amie	Harville	W	2015-07-10
+10004	Ran-Joo	Milton	M	2016-03-07
+10006	Keys	Chandra	M	2015-03-27
+10008	Malorie	Acklin	M	2016-02-18
+10010	Charla	Natiuk	W	2015-09-15
+10012	Terence	Hassold	W	2015-11-11
+10014	Francene	Pitton	M	2015-06-25
+10016	Sidone	Waucheul	M	2015-04-01
+10018	Kristin	Allman	W	2015-12-31
+10020	Aubrette	Settles	W	2015-04-05
+10022	Connie	McLaren	M	2016-02-29
+10024	Zarrin	Ziai	W	2016-01-10
+10026	Bibi	Hornburg	M	\N
+10028	Carolyn	Funston	M	2015-08-28
+10030	Henrika	Ta	M	2015-06-06
+10032	Kaylyn	Nickells	W	2015-11-04
+10034	Tawsha	Sandhu	W	2015-04-10
+10036	Prissie	Gell	M	2016-02-17
+10038	Modesty	Nttest	M	2016-01-13
+10040	Tallia	Stallings	W	2016-04-04
+10042	Laurence	Coverdale	W	2015-03-29
+10044	Corissa	Lumley	W	2015-04-07
+10046	Odele	O Shaughnessey	W	2015-08-08
+10048	Sibel	Kurash	W	2015-08-25
+10050	ChinFui	LaBranche	W	2015-09-18
+10052	Erina	Bockaj	M	2015-04-17
+10054	Gurjit	Bacciaglia	M	2015-07-20
+10056	Stafani	Fann	M	2015-04-20
+10058	Lona	Peacocke	M	2015-04-02
+10060	Lorenza	Benchimol	M	2015-11-19
+10062	Lenee	Von Semmler	M	2015-09-05
+10064	Brana	Wiercioch	M	2015-08-18
+10066	Eustacia	Abbatantuono	M	2015-11-19
+10068	Ange	O Dwyer	M	2015-06-20
+10070	Erena	Scourneau	M	2015-11-29
+10072	Donald	Hunsberger	W	2015-07-24
+10074	Maren	Bouret	W	2016-02-28
+10076	Karyn	Renwick	W	2016-04-05
+10078	Electra	Tchir	M	2015-05-06
+10080	Charmaine	Westfall	W	2015-11-04
+10082	Wanids	Carstensen	M	2016-04-05
+10084	Antonetta	Griner	W	2016-01-26
+10086	Kuang-Tsan	Dahl	W	2015-03-22
+10088	Car	Hebbar	W	2015-04-21
+10090	Laslo	Beaubien	W	2015-06-18
+10092	Peggie	Verch	M	2016-03-23
+10094	Annecorinne	Dessain	M	2015-06-28
+10096	Bessy	Tunon	W	2015-10-03
+10098	Dwain	Garvin	W	2016-02-18
+10100	Malethia	Hollack	W	2015-09-08
+10102	Doroteya	Veselko	W	2015-07-10
+10104	Dimitra	Morino	M	2015-12-02
+10106	Gita	Kauffman	W	2016-01-13
+10108	Juliana	Paczek	W	2016-03-03
+10110	Manish	Trinh	W	2015-09-22
+10112	Gordie	fpsched	W	2016-03-09
+10114	Debee	Sides	W	2015-10-14
+10116	Dore	Dunson	M	2015-11-22
+10118	\N	Kiefer	M	2015-07-26
+10120	Ravinder	Hurd	M	2015-07-01
+10122	Kristina	Ochs	M	2016-01-24
+10124	Cindee	Richardson	W	2015-08-29
+10126	Kristina	Lara	W	2015-12-09
+10128	Deanne	Msg	M	2016-04-02
+10130	Alvera	Welham	W	2015-09-16
+10132	Waneta	Tigg	W	2015-12-17
+10134	Peria	Pashia	M	2016-01-02
+10136	Yung	Bettadapur	W	2016-01-13
+10138	Anton	Tolle	M	2016-03-15
+10140	Richie	Shelton	M	2016-01-19
+10142	Tatyana	Uchiyama	W	2015-11-10
+10144	Mandana	Cetraro	W	2016-04-08
+10146	Adiana	Gamarnik	W	2015-03-17
+10148	Hoa-Van	Hasegawa	W	2015-08-24
+10150	Dyan	Whited	M	2016-01-04
+10152	Genny	Van Kessel	W	2016-02-27
+10154	Skip	Cae	M	2015-09-24
+10156	Briana	Schoenermarck	W	2015-11-10
+10158	Georganne	IOCNTRL	M	2016-02-27
+10160	Mirabella	Holloway	W	2015-05-26
+10162	Blake	Reno	M	2015-05-26
+10164	Ivonne	Genovise	\N	2016-04-09
+10166	Stephine	Roberts	M	2015-06-24
+10168	Kessia	Haurie	M	2015-07-03
+10170	Courtnay	Prog	M	2015-08-29
+10172	Marji	Pamperin	M	2015-12-09
+10174	Brunhilda	Herling	W	2015-08-24
+10176	Ajmal	McNeill	M	2015-09-13
+10178	Mimi	Talbert	M	2015-04-21
+10180	Hsieh	Osiakwan	M	2015-04-09
+10182	Jessica	Dawson	W	2015-08-02
+10184	Elmira	Goyette	W	2015-12-10
+10186	Ashli	Clark-Stewart	M	2015-12-26
+10188	Guylain	Lugwig	M	2016-02-09
+10190	Pic	Roohy-Laleh	W	2015-05-29
+10192	Deidre	Minai	W	2016-03-25
+10194	Par	Gopisetty	M	2015-05-26
+10196	Joela	Jayamanne	W	2016-03-14
+10198	Laslo	Ecroyd	W	2016-01-19
+10200	Leno	Twynham	M	2016-01-18
+10202	Arabella	Glofcheskie	M	2015-11-22
+10204	Everette	Rosenfeld	M	2015-11-12
+10206	Maye	Clements	W	2015-11-02
+10208	Honor	Denton	M	2015-07-20
+10210	Eliot	Hicks	W	2015-03-24
+10212	Kathrerine	Larche	M	2015-08-31
+10214	Reinhold	Saunderson	M	2015-11-03
+10216	Jacquelyn	Virgoe	W	2015-04-18
+10218	Eloisa	Roerick	M	2015-10-15
+10220	Francis	Van Fleet	W	2016-02-27
+10222	Berni	Appell	M	2015-04-15
+10224	Alexia	Rickard	M	2015-10-18
+10226	Lee-Anne	Hagar	M	2015-05-08
+10228	Nance	Harris	W	2015-05-17
+10230	Nikky	Wilczewski	W	2015-09-25
+10232	Takis	Sobchuk	W	2015-06-12
+10234	Shyam	Garinger	W	2016-02-20
+10236	Lana	Beaumier	M	2015-06-15
+10238	Sheeree	Dahan	W	2015-12-24
+10240	Theresina	Hammerli	M	2015-07-22
+10242	Wileen	St-Amour	M	2015-04-19
+10244	Mil	Hariman	W	2015-03-24
+10246	Irita	Pepple	W	2016-03-19
+10248	Stefan	Gillot	W	2016-01-27
+10250	Chrystel	Towles	M	2015-03-20
+10252	Felicia	Focht	W	2015-05-25
+10254	Hendra	Livek	W	2015-06-12
+10256	Es	Cyr	M	2015-04-18
+10258	Davis	Buker	M	2015-06-24
+10260	Joyann	Zimmer	W	2015-10-16
+10262	Bennie	Frischknecht	M	2015-09-20
+10264	Anjanette	Minos	M	2015-07-29
+10266	Marjet	Bigras	W	2016-02-17
+10268	Lionel	Garinger	M	2016-01-28
+10270	Desmond	Videa	M	2015-08-28
+10272	\N	Majmudar	\N	2015-11-02
+10274	Jagjit	Fani	W	2016-02-10
+10276	Dowell	Epps	W	2015-06-30
+10278	Belva	Caple	W	2016-01-03
+10280	Zouheir	Salva	W	2015-08-09
+10282	Jocelyne	Grego	W	2015-04-16
+10284	Crista	Chalker	W	2015-08-02
+10286	Kam	\N	W	2015-08-26
+10288	Shaylynn	Culley	W	2015-12-29
+10290	Nikoletta	Perazzini	M	2016-04-11
+10292	Data	\N	W	2015-11-08
+10294	Danial	Morin	M	2016-01-12
+10296	Milan	Boocock	M	2015-12-28
+10298	Bradley	Spurway	M	2015-03-29
+10300	Solita	Colter	M	2016-03-22
+10302	Shaun	Englert	W	2015-05-16
+10304	Brennan	Harbour	W	2015-12-31
+10306	Lyndsie	Loperena	W	2016-03-09
+10308	Eulalie	Kuntova	M	2015-11-17
+10310	Suzane	Lansupport	M	2015-10-18
+10312	Kylen	Rosvick	M	2015-03-14
+10314	Lyne	Cabaniss	M	2015-12-16
+10316	Shahid	Ouzas	W	2015-04-12
+10318	Bruno	Gaiger	M	2015-05-11
+10320	Barney	Critchley	W	2015-12-02
+10322	Lucy	Foght	M	2015-03-26
+10324	Stevana	Verardi	M	2015-10-06
+10326	Tallou	Corson	W	2016-01-08
+10328	Cahra	Eisnor	W	2015-10-30
+10330	Shayne	Wieland	W	2015-12-28
+10332	Deann	Lighthiser	M	2015-10-12
+10334	Lindsy	McCurdy	M	2015-09-08
+10336	Adiana	Dokken	M	2015-12-15
+10338	Bevvy	Somerville	W	2015-06-29
+10340	Gigi	Lalu	M	2015-12-04
+10342	Mabelle	Wetzel	M	2015-09-09
+10344	Harrietta	Flores	W	2016-03-01
+10346	Shinichi	Tschaja	W	2016-04-14
+10348	Akshay	Hainline	W	2016-01-12
+10350	Kati	Crawford	W	2015-06-29
+10352	Hesham	Dumas	M	2015-10-27
+10354	Sibylla	Mccue	W	2015-12-13
+10356	Weiping	Mastronardi	W	2015-10-14
+10358	Gurcharan	Wilken	M	2015-07-08
+10360	Barbaraanne	Zimmerman	M	2015-05-20
+10362	Scot	Enns	W	2015-10-20
+10364	Pelly	Dungan	W	2015-06-03
+10366	Tamiko	Squires	W	2015-09-18
+10368	Liliana	Kosnaskie	M	2015-12-11
+10370	Shafiq	Schenkel	W	2016-04-09
+10372	Rebecka	Clost	M	2015-04-04
+10374	Snehal	Rajczi	M	2015-11-08
+10376	Virginia	Michelson	W	2016-01-07
+10378	Sohale	Barnaby	M	2016-03-23
+10380	Kimbra	Creech	W	2015-12-17
+10382	Hengameh	Brooker	M	2015-09-17
+10384	Ronnie	Harshfield	W	2015-10-10
+10386	Valaria	Hammermeister	W	2016-03-18
+10388	Betty-Ann	Suharly	M	2015-11-27
+10390	Karyn	Sheehan	W	2015-09-14
+10392	Tobey	Ziegler	W	2015-08-07
+10394	Camilla	Rasmussen	M	2016-01-02
+10396	Lotty	Barstow	W	2015-09-09
+10398	Veriee	Nazardad	W	2015-06-28
+10400	Mikhail	Hord	W	2015-12-09
+10402	Haig	Minegishi	M	2015-07-21
+10404	Regan	Albery	W	2015-11-19
+10406	Marketa	Costanzino	W	2016-02-02
+10408	Denni	Scherbinsky	M	2015-10-26
+10410	Maurizia	Etten	W	2015-03-14
+10412	Jaynell	Kinsella	W	2015-10-18
+10414	Cherice	Parrish-Bell	M	2015-08-01
+10416	Milli	Schmidt	M	2015-11-19
+10418	Rosanne	Dunning	W	2016-03-26
+10420	Camille	Somani	M	2015-12-09
+10422	Oorschot	Reports	W	2015-09-19
+10424	Nik	Voss	M	2015-06-08
+10426	Benetta	Dambenieks	M	2015-06-26
+10428	Tobey	Christensen	M	2015-09-22
+10430	Marylynne	Mulroney	W	2015-08-18
+10432	\N	Borowiecki	M	\N
+10434	Sephira	Trull	W	2015-06-15
+10436	Winnifred	Corvo	W	2015-07-02
+10438	Dalenna	Bice	M	2015-06-10
+10440	Shailesh	Credico	M	2015-10-25
+10442	Velvet	Casalou	M	2015-07-11
+10444	Dineke	Redshaw	W	2015-05-23
+10446	Maude	Mariani	W	2015-10-28
+10448	Grethel	Boyes	M	2015-08-11
+10450	Kirby	Wilemon	M	2015-11-18
+10452	Keely	Weeks	M	2015-12-02
+10454	Hally	Beaudette	M	2015-12-02
+10456	Aaron	Hoffstedder	W	2016-01-07
+10458	Sarene	Matsuzaka	W	2016-02-23
+10460	Barney	Tripps	W	2016-01-31
+10462	Kathi	Mccoll	M	2016-04-04
+10464	Celina	Deslandes	W	2015-10-31
+10466	Elisa	Darnel	W	2015-07-31
+10468	Jorie	Brodgen	W	2016-02-29
+10470	Hayden	Scarborough	M	2015-07-17
+10472	Jean-Jacques	Brennen	M	2015-04-19
+10474	Geri	Meckler	M	2015-10-02
+10476	Roe	Esry	W	2015-08-13
+10478	Ebba	Lawler	M	2016-03-11
+10480	Tandie	Molson	M	2015-12-26
+10482	Jane	OTTAWA	M	2015-05-19
+10484	Chong-Lai	McLenaghan	W	2016-01-11
+10486	Tiffani	Milne	M	2015-10-15
+10488	Nertie	L Anglais	M	2015-04-07
+10490	Halette	Wayler	W	2015-11-04
+10492	Dean	Horne	M	2016-04-12
+10494	Gertrud	Ciampini	W	2015-07-05
+10496	Cyndy	Burney	W	2015-11-27
+10498	Farrah	Willis	W	2016-02-25
+10500	Jillene	Khosraviani	W	2016-02-17
+10502	Manami	Joron	M	2015-05-14
+10504	Shaughan	Krotish	M	2015-05-24
+10506	Mable	Panizzi	M	2015-10-22
+10508	Nico	Kelleher	M	2015-12-22
+10510	Kelcey	Angeli	M	2015-06-08
+10512	Meggie	Gilles	W	2015-04-26
+10514	Tomy	Somers	W	2015-09-14
+10516	Dusty	Bainton	M	2016-02-22
+10518	Wen-Kai	Blackwelder	M	2015-12-20
+10520	Pak	Bullas	W	2016-02-06
+10522	Tetsuya	Ellement	W	2015-12-16
+10524	Nad	Henley	M	2016-01-23
+10526	Wilmer	Kirkpatrick	W	2016-04-14
+10528	Berri	Pavlic	W	2015-12-11
+10530	Tally	Munro	M	2015-09-20
+10532	Matilde	Savino	W	2015-08-23
+10534	Allsun	Upton	\N	2015-05-12
+10536	Diamond	Alcott	M	2015-06-06
+10538	Kiri	Misczak	M	2016-04-02
+10540	Willette	Kurian	M	2015-04-12
+10542	Adrea	RK	W	2016-03-27
+10544	Anthia	Stensrud	W	2015-05-20
+10546	Kamil	Goridkov	W	2016-04-01
+10548	Ingemar	Terranella	M	2015-10-13
+10550	Fanchon	Calis	W	2015-04-09
+10552	Kem	Vella	M	2015-12-06
+10554	Starlene	Fares	M	2015-06-06
+10556	Bunni	Moseby	M	2015-04-29
+10558	Noelle	Berek	M	2016-03-12
+10560	Elmira	Overcash	M	2015-08-25
+10562	Delores	Ladd	M	2015-05-19
+10564	Jacek	Parkhill	W	2015-12-31
+10566	Brittni	Alie	W	2015-07-30
+10568	Shailesh	Darby	W	2016-01-20
+10570	Valentia	Umeh	M	2015-12-14
+10572	Iris	Tait	M	2015-11-12
+10574	Chesteen	Neuschwander	M	2015-07-13
+10576	Robinetta	Phalpher	M	2015-07-30
+10578	Kelila	Geisler	W	2015-07-20
+10580	Elvina	Montoute	W	2015-10-22
+10582	Tarrah	Eros	W	2015-08-11
+10584	Kalli	Hamra	W	2015-06-07
+10586	Corella	Bhandari	M	2015-08-16
+10588	Ariel	Patrick	M	2015-11-22
+10590	Meredithe	Tyrrell	M	2015-03-31
+10592	Cloris	McMasters	W	2015-11-05
+10594	Wenona	Moreland	W	2015-12-29
+10596	Nicole	Douglass	M	2016-01-19
+10598	Courtenay	Scovill	\N	2016-03-07
+10600	Tape	\N	W	2015-08-21
+10602	Manou	Stegall	M	2015-06-12
+10604	Francoise	Aurelius	M	2015-12-07
+10606	Tesa	Salazar	W	2015-05-26
+10608	Gwyneth	Belford	M	2015-12-01
+10610	Lezlie	Ramsay	M	2016-01-24
+10612	Rueben	Pierosara	M	2016-03-06
+10614	Denys	Scovell	M	2015-11-16
+10616	Rajeev	Lillis	W	2015-03-31
+10618	Louis	Guertin	M	2015-07-25
+10620	Fereidoon	Ochs	W	2015-06-25
+10622	Alika	DPNBUILD	M	2015-07-11
+10624	Carlie	Kacor	W	2016-04-05
+10626	Oksana	Billingham	W	2015-12-22
+10628	Ruthi	Magnusson	M	2015-12-11
+10630	Reno	Entwistle	M	2016-03-19
+10632	Catina	Kernahan	M	2015-05-13
+10634	Malaysia	Braverman	W	2015-11-25
+10636	Saleh	Stiles	M	2016-03-10
+10638	Luc	Roldan	M	2015-10-04
+10640	Geri	McCorquodale	M	2015-06-24
+10642	Czes	Winsky	M	2015-07-28
+10644	Yueh	Mader	M	2015-05-22
+10646	Novelia	Nolan-Moore	W	2016-01-19
+10648	Mahalia	Humenuk	W	2015-08-16
+10650	Delphine	Trachsel	W	2015-09-28
+10652	Donica	Elchakieh	W	2015-12-31
+10654	Andriana	Corriveau	W	2015-10-29
+10656	Afzal	Syposz	M	2015-06-13
+10658	Kwok-Wa	Godley	W	2015-09-05
+10660	Alexis	Marano	W	2015-03-17
+10662	Chi-Man	O Hearn	W	2016-01-08
+10664	Danita	Suffern	W	2015-07-11
+10666	Silvie	Menaker	W	2015-06-22
+10668	Bibbie	Mazey	W	2015-05-15
+10670	Pen	Flynn	M	2015-03-16
+10672	Coors	Eastick	M	2016-02-27
+10674	Ri	Carruthers	W	2015-12-25
+10676	Dacie	Collevecchio	M	2015-11-13
+10678	\N	Chacon	M	2016-03-04
+10680	Kessia	Yanagida	M	2015-12-30
+10682	Goldie	Lynton	W	2015-12-09
+10684	Saleh	Beton	M	2015-10-31
+10686	Cecilia	Moyce	M	2015-12-27
+10688	Rosalinde	Davy	W	2015-10-12
+10690	Manmohan	Armstrong	W	2015-11-25
+10692	Subhra	Fleischer	W	2016-01-21
+10694	Stella	Klappholz	M	2015-05-06
+10696	Bcspatch	Patoskie	W	2015-11-14
+10698	Paqs	Fiteny	M	2015-09-02
+10700	Frankie	McMinn	W	2015-06-29
+10702	Shaibal	Coqueugniot	M	2015-09-25
+10704	Zaihua	Kobreek	M	2015-04-27
+10706	Alida	Bielejeski	M	2015-10-31
+10708	Talya	Bodin	M	2016-03-13
+10710	Elliott	Guth	M	2015-11-04
+10712	Vmchange	Tschaja	W	2016-03-08
+10714	Cyndi	Hooks	W	2015-11-24
+10716	Yukuo	Lappan	M	2015-08-25
+10718	Modesta	Jimenez	W	2016-02-11
+10720	Stephenie	Devenyi	W	2016-03-18
+10722	Saul	Schlagenhauf	M	2015-10-15
+10724	Nash	Campagna	W	2015-03-14
+10726	Tamar	Dueppen	W	2015-08-20
+10728	Gerta	Wolff	W	2015-06-02
+10730	Catherina	Descotes	M	2016-04-01
+10732	Darell	Chouhan	M	2016-03-03
+10734	Cubicle	Wippel	W	2015-04-17
+10736	Leaton	Pusztai	M	2015-05-05
+10738	Motaz	Patchsqa	W	2015-07-01
+10740	Olive	Martens	W	2015-03-25
+10742	Malva	Iskandar	W	2015-04-18
+10744	Cleve	Wildgen	M	2015-04-14
+10746	Kissee	TRIAL	M	2015-11-18
+10748	Eveline	Glasser	W	2016-03-23
+10750	Christine	Fernandes	W	2015-07-20
+10752	Margaretta	Lidstone	M	2015-12-08
+10754	Ediva	Squizzato	W	2016-04-16
+10756	Hpone	Eriksson	M	2015-07-27
+10758	Tsing	Hollingworth	W	2016-02-05
+10760	Hans	Morneau	M	2016-03-16
+10762	Valery	Acres	W	2015-12-14
+10764	Wilhelmus	Filson	M	2015-08-13
+10766	Tchangid	Damerji	M	2015-04-05
+10768	Gretna	Rizk	M	2016-01-27
+10770	Lyndsie	Yarbrough	W	2015-03-26
+10772	Car	Teder	W	2015-03-27
+10774	Melanie	Lobasso	W	2015-10-05
+10776	Chatri	Matteau	M	2015-04-26
+10778	Nellie	Adjangba	M	2016-03-12
+10780	Ting	Javed	M	2016-03-09
+10782	Anastassia	Flewelling	M	2015-05-27
+10784	Lloyd	Vivian	M	2016-03-17
+10786	Loan	Ledamun	W	2015-04-12
+10788	Delmar	Tischhauser	W	2015-04-09
+10790	Chelsea	Ramey	W	2015-05-02
+10792	Ofella	Grimm	W	2015-04-29
+10794	Letti	Eroler	M	2015-12-02
+10796	Idris	Kalt	M	2015-06-22
+10798	Ronda	Bathrick	M	2016-03-26
 \.
 
 -- fill table trainer (100)
 \echo # filling table trainer (100)
 COPY trainer (persnr,gehalt,von,bis) FROM STDIN (ENCODING 'utf-8');
-10000	10057	2004-01-05	2015-10-31
-10002	10041	2004-06-14	2015-10-22
-10004	10011	2004-09-30	2015-10-26
-10006	10053	2004-02-03	2015-11-16
-10008	10064	2001-12-22	2015-11-30
-10010	10015	2004-03-08	2015-11-07
-10012	10052	2003-12-19	2015-12-27
-10014	10095	2002-04-19	2015-09-28
-10016	10072	2002-10-29	2015-11-24
-10018	10064	2000-11-03	2015-11-26
-10020	10041	2003-05-29	2015-12-11
-10022	10021	2000-08-31	2015-11-14
-10024	10009	2001-10-31	2015-12-19
-10026	10093	2001-06-01	2015-10-31
-10028	10060	2002-05-09	2015-10-23
-10030	10063	2002-07-27	2015-12-25
-10032	10063	2001-11-04	2015-12-01
-10034	10095	2002-11-09	2015-10-06
-10036	10090	2002-11-02	2015-10-03
-10038	10082	2003-07-14	2015-09-29
-10040	10029	2001-10-12	2015-10-11
-10042	10053	2002-05-08	2015-11-18
-10044	10073	2004-04-13	2015-12-08
-10046	10088	2004-08-07	2015-12-16
-10048	10014	2001-11-09	2015-12-03
-10050	10002	2001-01-22	2015-12-12
-10052	10077	2001-03-08	2015-11-30
-10054	10027	2001-12-12	2015-11-26
-10056	10023	2003-04-03	2015-11-28
-10058	10005	2003-12-19	2015-12-17
-10060	10028	2004-08-25	2015-12-17
-10062	10080	2003-05-02	2015-10-27
-10064	10038	2001-12-15	2015-10-14
-10066	10058	2001-12-27	2015-11-22
-10068	10050	2002-06-14	2015-10-31
-10070	10033	2002-06-02	2015-10-17
-10072	10012	2001-08-24	2015-10-16
-10074	10008	2000-06-02	2015-11-28
-10076	10039	2004-04-01	2015-10-06
-10078	10096	2002-12-28	2015-11-02
-10080	10095	2002-01-06	2015-11-18
-10082	10040	2002-04-09	2015-11-17
-10084	10087	2003-04-13	2015-10-15
-10086	10078	2002-09-06	2015-12-22
-10088	10047	2004-09-29	2015-09-25
-10090	10059	2001-01-17	2015-11-26
-10092	10048	2004-08-26	2015-11-04
-10094	10006	2002-05-05	2015-11-11
-10096	10052	2003-11-08	2015-12-25
-10098	10087	2001-08-26	2015-11-27
-10100	10026	2004-02-05	2015-11-17
-10102	10033	2002-04-29	2015-10-06
-10104	10059	2002-08-15	2015-10-27
-10106	10086	2002-01-10	2015-12-13
-10108	10084	2002-02-08	2015-12-27
-10110	10087	2002-03-04	2015-11-11
-10112	10000	2000-11-03	2015-12-09
-10114	10084	2003-03-19	2015-11-28
-10116	10013	2003-04-07	2015-11-01
-10118	10088	2004-05-14	2015-10-15
-10120	10056	2003-03-30	2015-10-05
-10122	10031	2002-09-15	2015-11-16
-10124	10016	\N	2015-10-29
-10126	10051	2000-09-07	2015-11-11
-10128	10038	2002-08-07	2015-11-12
-10130	\N	2000-06-11	2015-10-31
-10132	10071	2001-04-26	2015-12-08
-10134	10095	2002-02-28	2015-09-27
-10136	10093	2003-04-19	2015-12-05
-10138	10059	2000-09-14	2015-12-29
-10140	10043	2004-08-14	2015-11-11
-10142	10032	2002-11-19	2015-11-27
-10144	10026	2001-07-25	2015-11-12
-10146	10057	2001-07-04	2015-12-24
-10148	10088	2000-12-18	2015-11-22
-10150	10080	2004-03-19	2015-11-24
-10152	10066	2002-01-08	2015-10-26
-10154	10080	2000-05-25	2015-09-27
-10156	10074	2003-05-12	2015-10-03
-10158	10066	2000-09-08	2015-10-17
-10160	10045	2002-09-02	2015-10-21
-10162	10013	2001-12-01	2015-10-05
-10164	10070	2002-10-07	2015-12-06
-10166	10031	2001-04-20	2015-12-26
-10168	10085	2001-07-11	2015-10-21
-10170	10041	2004-11-02	2016-01-01
-10172	10031	2003-09-25	2015-10-31
-10174	10040	2004-04-30	2015-11-25
-10176	10093	2003-03-19	2015-11-10
-10178	\N	2000-08-13	2015-10-29
-10180	10064	2004-09-14	2015-10-16
-10182	10007	2001-09-18	2015-10-27
-10184	10023	2003-10-09	2015-12-21
-10186	10092	2004-09-25	2015-10-05
-10188	10076	2002-08-31	2015-10-06
-10190	10062	2004-05-08	2015-11-30
-10192	10057	2000-08-19	2015-11-01
-10194	10086	2002-12-24	2015-09-26
-10196	10090	2003-11-11	2015-11-18
-10198	10084	2004-02-04	2015-11-30
+10000	10077	2002-02-21	2015-11-25
+10002	10048	2003-10-03	2015-11-10
+10004	10099	2002-02-22	2015-10-10
+10006	10023	2000-04-19	2015-12-26
+10008	10033	2004-12-31	2015-10-28
+10010	10030	2000-03-11	2015-10-07
+10012	10043	2004-06-17	2015-10-16
+10014	10021	2001-02-03	2015-11-15
+10016	10013	2000-05-04	2015-12-10
+10018	10058	2001-04-01	2015-12-17
+10020	10024	2001-03-29	2015-10-25
+10022	10043	2001-08-23	2015-10-21
+10024	10020	2001-03-21	2015-11-10
+10026	10039	2002-04-30	2016-01-01
+10028	10043	2003-05-11	2015-12-27
+10030	10001	2000-02-20	2015-11-27
+10032	10085	2001-05-30	2015-10-20
+10034	10055	2004-07-18	2015-09-26
+10036	10093	2003-09-21	2015-11-28
+10038	10034	2002-04-06	2016-01-01
+10040	10002	2003-01-20	2015-12-17
+10042	10073	2000-08-05	2015-10-19
+10044	10004	2003-05-28	2015-12-23
+10046	10071	2001-10-21	2015-11-05
+10048	10099	2003-07-16	2015-12-02
+10050	10097	2003-10-12	2015-10-15
+10052	\N	2000-06-23	2015-09-26
+10054	10019	2003-04-01	2015-10-28
+10056	10022	2001-09-06	2015-12-03
+10058	10005	2002-10-04	2015-12-16
+10060	10060	2001-11-12	2015-12-08
+10062	10069	2003-09-28	2015-09-28
+10064	10054	2000-02-20	2015-10-02
+10066	10038	2004-10-22	2015-11-02
+10068	10064	2002-11-14	2015-09-27
+10070	10003	2000-03-19	2015-11-15
+10072	10065	2003-03-14	2015-10-31
+10074	10014	2001-12-07	2015-09-29
+10076	10023	2004-11-11	2015-12-14
+10078	10093	2004-03-17	2015-11-20
+10080	10071	2002-06-09	2015-12-03
+10082	10004	2004-08-23	2015-12-24
+10084	10077	2002-10-23	2015-10-27
+10086	10001	\N	2015-11-25
+10088	10046	2003-11-19	2015-12-07
+10090	10056	2000-05-13	2015-11-25
+10092	10059	2000-11-30	2015-12-11
+10094	10074	2003-08-12	2015-12-05
+10096	10059	2004-01-20	2015-12-31
+10098	10019	2000-12-19	2015-11-30
+10100	10028	2000-03-19	2015-10-27
+10102	10065	2002-09-18	2015-12-27
+10104	10016	2002-03-02	2015-09-27
+10106	10097	2000-05-08	2015-10-31
+10108	10075	2004-09-28	2015-10-24
+10110	10095	2001-07-12	2015-09-28
+10112	10016	2000-02-16	2015-11-28
+10114	10076	2001-04-13	2015-12-27
+10116	10084	2003-03-27	2015-10-01
+10118	10038	2002-05-29	2015-11-13
+10120	10004	2002-11-16	2016-01-01
+10122	10093	2001-07-09	2015-10-15
+10124	10086	2002-10-21	2015-11-21
+10126	10088	2000-08-31	2015-09-30
+10128	10024	2004-08-14	2015-09-26
+10130	10077	2004-01-29	2015-10-20
+10132	10074	2002-02-05	2015-12-10
+10134	10071	2004-08-14	2015-12-10
+10136	10018	2004-11-05	2015-10-01
+10138	10095	2000-07-18	2015-12-31
+10140	10040	\N	2015-10-21
+10142	10065	2004-11-09	2015-10-12
+10144	10025	2003-12-30	2015-12-19
+10146	10049	2002-06-15	2015-11-28
+10148	10089	2001-09-20	2015-12-20
+10150	10091	2001-10-24	2015-10-03
+10152	10042	2004-05-30	2015-12-20
+10154	10008	2002-08-16	2015-11-25
+10156	10032	2003-12-08	2015-09-25
+10158	10096	2002-03-26	2015-10-15
+10160	10048	2002-05-28	2015-10-22
+10162	10014	2002-06-20	2015-10-09
+10164	10070	2002-09-27	2015-11-15
+10166	10034	2003-09-23	2015-10-21
+10168	10039	2001-07-11	2015-10-17
+10170	10075	2002-11-06	2015-10-16
+10172	10088	2002-04-23	2015-10-07
+10174	10090	2004-10-21	2015-12-30
+10176	10051	2003-07-21	2015-12-15
+10178	10057	2004-11-29	2015-10-23
+10180	10063	2002-10-14	2015-11-15
+10182	10022	2003-09-27	2015-11-14
+10184	10038	2003-07-01	2015-09-30
+10186	10074	2001-02-09	2015-12-13
+10188	10052	2000-05-14	2015-11-09
+10190	10009	2001-07-02	2015-11-07
+10192	10009	2000-12-07	2015-10-22
+10194	10015	2002-02-28	2016-01-01
+10196	10053	2000-10-19	2015-11-21
+10198	10093	2000-05-26	2015-11-15
 \.
 
 -- fill table standort (100)
 \echo # filling table standort (100)
 COPY standort (sid,land,plz,ort) FROM STDIN (ENCODING 'utf-8');
-1	Land8545	PLZ37538	Ort8205
-2	Land43685	PLZ34840	Ort15775
-3	Land78851	\N	Ort60370
-4	Land56544	PLZ95784	Ort29214
-5	Land53898	PLZ28722	Ort54873
-6	Land32461	PLZ50939	Ort17421
-7	Land90107	PLZ5425	Ort90250
-8	Land69041	PLZ59900	Ort92382
-9	Land64133	PLZ38028	\N
-10	Land73427	PLZ85599	Ort84589
-11	Land47998	PLZ78707	Ort82369
-12	Land96788	PLZ70448	Ort84905
-13	Land66154	PLZ647	Ort12253
-14	Land76029	PLZ76011	Ort74308
-15	Land59902	PLZ24028	Ort83026
-16	Land25738	PLZ51331	Ort13472
-17	Land94009	PLZ47568	Ort308
-18	Land31746	PLZ79499	Ort28450
-19	Land65704	PLZ38696	Ort78730
-20	Land80264	PLZ40213	Ort68284
-21	Land79353	PLZ64990	Ort71721
-22	Land16680	PLZ57832	Ort27348
-23	Land55506	PLZ17155	Ort51446
-24	Land39305	PLZ30587	Ort43226
-25	Land55125	PLZ94936	\N
-26	Land40426	PLZ33066	Ort34605
-27	Land37750	PLZ29516	Ort95376
-28	Land24269	PLZ26071	Ort19210
-29	Land91593	PLZ32722	Ort5728
-30	Land55494	PLZ60058	Ort89469
-31	Land75670	PLZ27484	Ort46985
-32	Land53015	PLZ76500	Ort91506
-33	Land78302	PLZ18962	Ort6074
-34	Land33072	\N	Ort39777
-35	Land29862	PLZ76431	Ort10272
-36	Land82440	PLZ63802	Ort70130
-37	Land64357	PLZ10851	Ort45121
-38	Land19358	PLZ25300	Ort73001
-39	Land9325	PLZ25445	Ort14572
-40	Land47829	PLZ17342	Ort14165
-41	Land21676	PLZ37653	Ort8680
-42	Land10304	PLZ76798	Ort88461
-43	Land33282	PLZ5041	Ort89277
-44	Land54776	PLZ60272	Ort93789
-45	Land13765	PLZ93714	Ort3324
-46	Land51261	PLZ50353	Ort54553
-47	Land83669	PLZ29264	Ort82398
-48	Land43848	PLZ83881	Ort92668
-49	Land36057	PLZ46293	Ort29312
-50	Land32456	PLZ61747	Ort93580
-51	Land43855	PLZ58553	Ort81374
-52	Land5043	PLZ64894	Ort28827
-53	Land10286	PLZ61642	Ort91864
-54	Land47795	PLZ37769	Ort44893
-55	Land10130	PLZ6938	Ort50974
-56	Land99033	PLZ2882	Ort61760
-57	Land44093	PLZ67580	Ort27685
-58	Land44400	PLZ43449	Ort88454
-59	Land18381	PLZ41892	Ort98481
-60	Land32448	PLZ64779	Ort50662
-61	Land53650	PLZ26014	Ort12597
-62	Land74484	PLZ91425	Ort26434
-63	Land29945	PLZ84628	Ort18046
-64	Land7624	PLZ57580	Ort58367
-65	Land59455	\N	Ort11247
-66	Land62733	PLZ31297	Ort5103
-67	Land32265	PLZ55309	Ort33459
-68	Land94988	PLZ15860	Ort1162
-69	Land30117	PLZ94043	Ort19646
-70	Land30576	PLZ38802	Ort59796
-71	Land88317	PLZ74297	Ort19906
-72	Land21375	PLZ51550	Ort39611
-73	Land25943	PLZ15032	Ort37056
-74	Land64600	PLZ38408	Ort7730
-75	Land67199	PLZ43547	Ort73723
-76	Land72422	PLZ26587	Ort94518
-77	Land74426	PLZ18517	Ort21032
-78	Land96682	PLZ13221	Ort70581
-79	Land48761	PLZ81285	Ort8202
-80	Land94266	PLZ67245	Ort78487
-81	Land85384	PLZ20384	Ort62062
-82	Land66265	PLZ44172	Ort14111
-83	Land84957	PLZ21490	\N
-84	Land7906	PLZ72828	Ort48060
-85	Land7745	PLZ30628	Ort87461
-86	Land44331	PLZ56972	Ort65548
-87	Land19178	PLZ88001	Ort1431
-88	Land70856	PLZ67701	Ort66238
-89	Land16480	PLZ88439	Ort60617
-90	Land48713	PLZ55908	Ort36226
-91	Land52925	PLZ89869	Ort17487
-92	Land21694	PLZ31115	Ort19895
-93	Land58243	PLZ56316	Ort85331
-94	Land62727	PLZ68459	Ort42350
-95	Land65302	PLZ46485	Ort56415
-96	Land19406	PLZ52296	Ort24475
-97	Land40667	PLZ85973	Ort31057
-98	Land88042	PLZ13276	Ort61025
-99	Land35736	PLZ19972	Ort4851
-100	Land66355	PLZ57393	Ort81309
+1	Land96034	PLZ28234	Ort86250
+2	Land91325	PLZ29628	Ort29257
+3	Land31470	PLZ92861	Ort53484
+4	Land21561	PLZ1499	Ort5854
+5	Land96985	PLZ42010	Ort79364
+6	Land52023	PLZ97227	Ort55645
+7	Land69651	PLZ29173	Ort49515
+8	Land15657	PLZ81226	Ort32946
+9	Land75182	PLZ33976	Ort70162
+10	Land90131	PLZ52423	Ort83380
+11	Land81144	PLZ69469	Ort45147
+12	Land54883	PLZ94956	Ort65831
+13	Land68028	PLZ83184	Ort29454
+14	Land35787	PLZ71615	Ort64829
+15	Land39304	PLZ96741	Ort92730
+16	Land54207	PLZ1514	Ort43109
+17	Land19612	PLZ72113	Ort83187
+18	Land64646	PLZ9746	Ort88175
+19	Land96131	PLZ64050	Ort60319
+20	Land81334	PLZ82078	Ort73160
+21	Land9839	PLZ31516	Ort73151
+22	Land61183	PLZ80481	Ort16624
+23	Land32577	PLZ81808	Ort71791
+24	Land7776	PLZ32916	Ort9683
+25	Land31270	PLZ63100	Ort79397
+26	Land12190	PLZ99059	Ort39982
+27	Land38022	PLZ28711	Ort62507
+28	Land93590	PLZ16563	Ort91377
+29	Land47217	PLZ41830	\N
+30	Land99526	PLZ18985	Ort13447
+31	Land87165	PLZ16559	Ort31499
+32	Land4918	PLZ93814	Ort83604
+33	Land91940	PLZ67250	Ort70072
+34	Land96614	PLZ30457	Ort74238
+35	Land22874	PLZ70342	Ort46309
+36	Land61070	PLZ52465	Ort31839
+37	Land86002	PLZ74817	Ort97773
+38	Land9611	PLZ33336	Ort80061
+39	Land98352	PLZ22507	Ort19104
+40	Land80158	PLZ79627	Ort89582
+41	Land50417	PLZ98907	Ort81137
+42	Land64305	PLZ52304	Ort50182
+43	Land76804	PLZ91991	Ort22484
+44	Land79506	PLZ81258	Ort54803
+45	Land43969	PLZ40622	Ort53925
+46	Land82028	PLZ94606	Ort61365
+47	Land72670	PLZ38989	Ort77829
+48	Land71507	PLZ88522	Ort97406
+49	Land82167	PLZ61249	Ort69288
+50	Land37065	PLZ20021	Ort26077
+51	Land9976	PLZ67808	Ort60051
+52	Land77770	PLZ86179	Ort90354
+53	Land12819	PLZ47968	Ort89586
+54	Land57299	PLZ85814	Ort46402
+55	Land9753	PLZ34383	Ort16441
+56	Land91890	PLZ86632	Ort50855
+57	Land17959	PLZ56352	Ort62119
+58	Land57099	PLZ81866	Ort4587
+59	Land86443	PLZ3792	Ort76203
+60	Land17803	PLZ85573	Ort28193
+61	Land11400	PLZ27646	Ort32534
+62	Land84469	PLZ46511	Ort98041
+63	Land58569	PLZ90313	Ort84959
+64	Land87360	PLZ53956	Ort81168
+65	Land75491	PLZ53685	Ort75632
+66	Land83046	PLZ52055	Ort54943
+67	Land24633	PLZ79373	Ort37356
+68	Land44746	PLZ25881	Ort68194
+69	Land61133	PLZ41950	Ort94201
+70	Land8455	PLZ49906	Ort22415
+71	Land21272	PLZ92537	Ort44734
+72	Land48929	PLZ62557	Ort90848
+73	Land59286	PLZ57029	Ort27347
+74	Land77332	PLZ143	Ort80910
+75	Land91326	PLZ12221	Ort85220
+76	Land37793	PLZ13041	Ort27782
+77	Land88987	PLZ92890	Ort21973
+78	Land40451	PLZ83090	Ort54886
+79	Land53777	PLZ71295	Ort99758
+80	Land45849	PLZ65828	Ort65050
+81	Land34697	PLZ76772	Ort41846
+82	\N	PLZ21563	Ort45687
+83	Land38052	PLZ45012	Ort9398
+84	Land80919	PLZ18282	Ort44553
+85	Land85754	PLZ37516	Ort37214
+86	Land66456	PLZ72626	Ort65758
+87	Land99234	PLZ5059	Ort85066
+88	Land39358	PLZ6931	Ort46280
+89	Land61496	PLZ75224	Ort46175
+90	Land34789	PLZ9680	Ort12384
+91	Land67501	PLZ26938	Ort21143
+92	Land27287	PLZ59057	Ort8286
+93	Land7918	PLZ31922	Ort64849
+94	Land30356	PLZ76536	Ort62395
+95	Land50953	PLZ59577	Ort52560
+96	Land98917	PLZ66205	Ort33642
+97	Land63116	PLZ51645	Ort91573
+98	Land26784	PLZ714	Ort44471
+99	Land20063	PLZ91347	Ort89850
+100	Land22540	PLZ88381	Ort7330
 \.
 
 -- fill table angestellter (100)
 \echo # filling table angestellter (100)
 COPY angestellter (persnr,ueberstunden,e_mail) FROM STDIN (ENCODING 'utf-8');
-10000	2	ttz.ddvl@gmail.com
-10002	1	vzi.eoghnsc@gmail.com
-10004	3	ial.tercdvea@gmail.com
-10006	10	xxotr.grs@gmail.com
-10008	3	qlet.ggyl@yahoo.com
-10010	3	fpaxmt.rocam@yahoo.com
-10012	9	mqavmvco.onhlh@gmail.com
-10014	1	uhfu.cgpwk@gmail.com
-10016	3	tbszuvdw.vulif@gmail.com
-10018	6	uhs.kmuhs@yahoo.com
-10020	6	jncd.endfv@yahoo.com
-10022	5	lskucskk.rre@gmail.com
-10024	8	qumm.bfj@gmail.com
-10026	9	hmsnl.ygjtpss@yahoo.com
-10028	2	ciaojzp.irw@gmail.com
-10030	7	yueywcn.wtxxxz@gmail.com
-10032	7	ybur.ynxjnm@yahoo.com
-10034	1	kbxgplw.rsk@yahoo.com
-10036	10	nhc.qbymbpy@gmail.com
-10038	4	ajuobjmn.bbvnc@gmail.com
-10040	3	qzka.ool@gmail.com
-10042	5	fonw.ektuvv@yahoo.com
-10044	2	mwyaol.otc@gmail.com
-10046	10	ozzh.qvychxx@gmail.com
-10048	7	jgp.xyzjpalv@gmail.com
-10050	3	ugf.jlpuyw@gmail.com
-10052	5	ujwdfl.kst@gmail.com
-10054	1	zxjzbhm.mqgtkpz@yahoo.com
-10056	8	uin.xzfxr@yahoo.com
-10058	1	txfiefq.ltdxiu@gmail.com
-10060	2	vmovts.ntu@gmail.com
-10062	8	xmwakcnv.njdw@gmail.com
-10064	2	cul.hwpq@gmail.com
-10066	1	\N
-10068	3	zxg.vpnpjq@yahoo.com
-10070	4	pxq.nktrf@gmail.com
-10072	3	ksjaexr.tygi@gmail.com
-10074	7	qnlq.voiuim@yahoo.com
-10076	6	hvamktk.sys@gmail.com
-10078	1	oghn.fsfytsj@gmail.com
-10080	6	dnrahau.psjtqn@gmail.com
-10082	4	keaxact.lplvnfxk@gmail.com
-10084	9	tmxu.cyntrg@yahoo.com
-10086	7	qjwo.ztaxkc@yahoo.com
-10088	6	smikep.kbenxzxu@yahoo.com
-10090	9	erm.zihv@gmail.com
-10092	7	kksd.inrdvtr@yahoo.com
-10094	3	kkbz.ado@yahoo.com
-10096	10	huaopkpt.czz@yahoo.com
-10098	2	\N
-10100	8	ljocvnx.pha@yahoo.com
-10102	7	mgmee.zjtlse@yahoo.com
-10104	2	aipq.ddtllmj@yahoo.com
-10106	10	tysg.annioo@yahoo.com
-10108	10	xtllvcw.qiufnox@yahoo.com
-10110	5	mosqrtkw.kndg@yahoo.com
-10112	10	ewdphkr.txar@gmail.com
-10114	6	elrd.nnw@yahoo.com
-10116	6	uwxl.mli@yahoo.com
-10118	8	cmawe.zpuoxfft@gmail.com
-10120	9	edhn.igo@gmail.com
-10122	6	cfasm.ypme@gmail.com
-10124	4	tkre.gxpmnd@yahoo.com
-10126	6	itvcxxpr.dhuj@gmail.com
-10128	10	hecsdrrl.hggxetp@gmail.com
-10130	9	rqerhpgl.hecoted@gmail.com
-10132	4	ony.dsshzdu@yahoo.com
-10134	1	vxokf.uiazoitt@yahoo.com
-10136	5	ffit.hnwi@gmail.com
-10138	6	ubp.adjko@yahoo.com
-10140	4	lom.pqjcd@gmail.com
-10142	5	pds.sbrtmsl@yahoo.com
-10144	5	ptt.eotky@gmail.com
-10146	10	coxhdei.ufewg@yahoo.com
-10148	1	byounnt.eoupgimy@gmail.com
-10150	1	jowcoq.ybfxqll@yahoo.com
-10152	10	tzi.zkiqr@gmail.com
-10154	10	pobeipp.jkmdp@gmail.com
-10156	7	mcsi.fswbah@gmail.com
-10158	8	qsgcopl.yxejfgti@yahoo.com
-10160	7	riq.dklo@yahoo.com
-10162	9	sgm.evwfxpr@gmail.com
-10164	5	usj.dkk@yahoo.com
-10166	7	seiq.emlgj@gmail.com
-10168	10	cmcpams.wvogov@yahoo.com
-10170	10	luzkde.lzobohon@gmail.com
-10172	3	drx.fjmyjf@gmail.com
-10174	2	izjpsut.rlio@yahoo.com
-10176	4	yanbgjwj.ehvuz@gmail.com
-10178	7	blznzt.adg@gmail.com
-10180	3	hokvi.lmth@yahoo.com
-10182	9	vkyaif.yjy@yahoo.com
-10184	10	rbzzk.ymfrzsyl@gmail.com
-10186	7	eerdyi.jsdly@gmail.com
-10188	8	oannoxar.wbrw@yahoo.com
-10190	6	kbzafm.tni@gmail.com
-10192	9	hsxdw.jkfkkjo@yahoo.com
-10194	10	qdg.dpgyrfy@yahoo.com
-10196	6	cxbbmum.xdnpyj@gmail.com
-10198	\N	cykzabcc.dgevp@gmail.com
+10000	8	cfoyarh.zwrwapwg@gmail.com
+10002	3	izetw.piym@yahoo.com
+10004	9	pzyv.nnkojnf@yahoo.com
+10006	6	nargzrux.ptnyzgbk@gmail.com
+10008	6	oknk.ckujj@gmail.com
+10010	2	xcfjbqtm.femgqli@yahoo.com
+10012	6	bornpbf.jwhnqrk@gmail.com
+10014	10	lxdcba.psk@gmail.com
+10016	10	zko.jhntrhes@yahoo.com
+10018	8	rxd.cbkzau@yahoo.com
+10020	2	sqfaoxb.hdsh@gmail.com
+10022	9	exvbgfil.depkqvd@yahoo.com
+10024	5	tzzmdysj.iyvx@gmail.com
+10026	1	wza.egl@yahoo.com
+10028	4	lmoluwx.sfilhk@gmail.com
+10030	7	ifaavexj.byimbb@yahoo.com
+10032	6	haernr.grviyoym@gmail.com
+10034	6	abud.syxnoq@yahoo.com
+10036	8	hss.daokfbw@gmail.com
+10038	3	skkcuu.qslwb@gmail.com
+10040	1	earyyuib.bncqh@yahoo.com
+10042	4	kaucno.odoi@yahoo.com
+10044	1	zxvas.mkcqxru@yahoo.com
+10046	2	ggi.komqxu@gmail.com
+10048	6	aibjxy.ivs@yahoo.com
+10050	6	dvqx.dxs@yahoo.com
+10052	6	yvqaz.jsnb@yahoo.com
+10054	8	gwllfb.ogtf@yahoo.com
+10056	6	yedv.cdpv@gmail.com
+10058	1	arti.czup@yahoo.com
+10060	7	chcow.hnyjrx@yahoo.com
+10062	7	ywypz.usmby@yahoo.com
+10064	2	jsd.vwbvviq@yahoo.com
+10066	3	srezll.cecankjf@yahoo.com
+10068	1	giqy.bnnrqcz@gmail.com
+10070	1	ujkkeezm.nfz@yahoo.com
+10072	6	qfw.oyqn@yahoo.com
+10074	9	hguulqw.rhpgblh@yahoo.com
+10076	7	uwlmwbev.jur@yahoo.com
+10078	6	xeyos.ivtm@gmail.com
+10080	7	zpbtpx.ypqhrtyu@yahoo.com
+10082	3	lgwc.ajr@yahoo.com
+10084	5	eabv.xihsjac@yahoo.com
+10086	2	syvptmw.mzkxen@yahoo.com
+10088	1	ekmsr.nsa@yahoo.com
+10090	10	qtpil.nmn@yahoo.com
+10092	10	hde.uyfwi@gmail.com
+10094	6	qgu.kxwavl@gmail.com
+10096	7	lbjhhor.dumrm@yahoo.com
+10098	1	clvcwvyl.ldsslh@yahoo.com
+10100	9	jdwipkh.izhjz@gmail.com
+10102	7	eyqrfp.qrnuw@gmail.com
+10104	5	edkvgsk.aud@gmail.com
+10106	8	nlhc.xvnnijoy@gmail.com
+10108	8	fex.wzelabiq@gmail.com
+10110	3	vkitatp.jvy@yahoo.com
+10112	6	ico.qzp@gmail.com
+10114	2	vni.bbqv@gmail.com
+10116	6	qge.bxvkztjt@gmail.com
+10118	4	vlqcwl.qibtc@yahoo.com
+10120	7	zvqtyu.wibt@yahoo.com
+10122	6	ifw.jcqhrk@gmail.com
+10124	7	wvw.qfc@gmail.com
+10126	7	dfenyo.pez@yahoo.com
+10128	4	hlhaa.igevzvb@yahoo.com
+10130	6	amtvptm.dlwjsr@gmail.com
+10132	6	iwntikqq.crozxqb@yahoo.com
+10134	6	lpd.tprsbjt@gmail.com
+10136	7	gax.tmy@gmail.com
+10138	2	kyxdfulo.kxo@gmail.com
+10140	4	bjjnypyn.iyujfmt@gmail.com
+10142	10	wzoh.kirxg@gmail.com
+10144	2	ygsdcuo.zyedolyj@yahoo.com
+10146	6	retbke.plwack@gmail.com
+10148	7	rtpssvt.uxfjz@gmail.com
+10150	6	nxy.rwpwkodz@gmail.com
+10152	4	msammajg.kfbaqqf@yahoo.com
+10154	4	qxxrbb.mkyaef@gmail.com
+10156	5	ptm.yjuvc@yahoo.com
+10158	6	trblrn.icd@yahoo.com
+10160	1	\N
+10162	3	vispj.crpnnhl@yahoo.com
+10164	4	pqwxv.hufg@gmail.com
+10166	2	rci.vshqo@yahoo.com
+10168	2	xap.aggoqat@yahoo.com
+10170	2	sxhbwlji.xseelw@yahoo.com
+10172	4	krounqdd.wdw@gmail.com
+10174	8	zwhghp.kzvike@yahoo.com
+10176	7	vlww.rrircmq@gmail.com
+10178	6	vksuql.jsdfdgj@yahoo.com
+10180	10	csrcera.kfcofgov@gmail.com
+10182	9	augesx.ktqqdsz@yahoo.com
+10184	5	hkqaes.inqc@yahoo.com
+10186	6	vktoy.uuue@yahoo.com
+10188	4	ctvp.nbh@gmail.com
+10190	3	ijslmwz.wws@yahoo.com
+10192	10	amsmivb.xrldnap@yahoo.com
+10194	5	xacscxai.fpzpwhz@yahoo.com
+10196	3	ledfqcg.yavafq@yahoo.com
+10198	4	htjfvwpw.vizlyl@yahoo.com
 \.
 
 -- fill table assitrainer (100)
 \echo # filling table assitrainer (100)
 COPY assitrainer (persnr,bezeichnung) FROM STDIN (ENCODING 'utf-8');
-38132	bezeichnungMannschaft22608
-55043	bezeichnungMannschaft43734
-42797	bezeichnungMannschaft40241
-103919	bezeichnungMannschaft3900
-65651	bezeichnungMannschaft97553
-65012	bezeichnungMannschaft77503
-89782	bezeichnungMannschaft92035
-97543	bezeichnungMannschaft87117
-105929	bezeichnungMannschaft97767
-73704	bezeichnungMannschaft99411
-12482	bezeichnungMannschaft57606
-26802	bezeichnungMannschaft8416
-59962	bezeichnungMannschaft82393
-105677	bezeichnungMannschaft81442
-107290	bezeichnungMannschaft96696
-71733	bezeichnungMannschaft97310
-53682	bezeichnungMannschaft74456
-106628	bezeichnungMannschaft90281
-40292	bezeichnungMannschaft53693
-52688	bezeichnungMannschaft83990
-87586	bezeichnungMannschaft82406
-11740	bezeichnungMannschaft85306
-99725	bezeichnungMannschaft12220
-103086	bezeichnungMannschaft4490
-38696	bezeichnungMannschaft2883
-43475	bezeichnungMannschaft5536
-97717	bezeichnungMannschaft85199
-78190	bezeichnungMannschaft3236
-60236	bezeichnungMannschaft43661
-54203	bezeichnungMannschaft7622
-11121	bezeichnungMannschaft7701
-49581	bezeichnungMannschaft59869
-27762	bezeichnungMannschaft66507
-11908	bezeichnungMannschaft69265
-94006	bezeichnungMannschaft39669
-47087	bezeichnungMannschaft29378
-33543	bezeichnungMannschaft17766
-13698	bezeichnungMannschaft61187
-71621	bezeichnungMannschaft91825
-86625	bezeichnungMannschaft95732
-66828	bezeichnungMannschaft30169
-10516	bezeichnungMannschaft67764
-84007	bezeichnungMannschaft26682
-59402	bezeichnungMannschaft21885
-76351	bezeichnungMannschaft90933
-18215	bezeichnungMannschaft50524
-28421	bezeichnungMannschaft84533
-63297	bezeichnungMannschaft64917
-106063	bezeichnungMannschaft55338
-21055	bezeichnungMannschaft57331
-98085	bezeichnungMannschaft2082
-69225	bezeichnungMannschaft74531
-56690	bezeichnungMannschaft61706
-23925	bezeichnungMannschaft35000
-61853	bezeichnungMannschaft29776
-108535	bezeichnungMannschaft50655
-67490	bezeichnungMannschaft52445
-78971	bezeichnungMannschaft44387
-53194	bezeichnungMannschaft13386
-89115	bezeichnungMannschaft22431
-50793	bezeichnungMannschaft97896
-56643	bezeichnungMannschaft75851
-36764	bezeichnungMannschaft84097
-63257	bezeichnungMannschaft75890
-31129	bezeichnungMannschaft47298
-33780	bezeichnungMannschaft5412
-23060	bezeichnungMannschaft67306
-65473	bezeichnungMannschaft98328
-76810	bezeichnungMannschaft43426
-100354	bezeichnungMannschaft95414
-87822	bezeichnungMannschaft39291
-52205	bezeichnungMannschaft67955
-35227	bezeichnungMannschaft70527
-72410	bezeichnungMannschaft68505
-74151	bezeichnungMannschaft3553
-102915	bezeichnungMannschaft13180
-45480	bezeichnungMannschaft98640
-28126	bezeichnungMannschaft57708
-24289	bezeichnungMannschaft27717
-84602	bezeichnungMannschaft64947
-45004	bezeichnungMannschaft69605
-36434	bezeichnungMannschaft79212
-39842	bezeichnungMannschaft11831
-107724	bezeichnungMannschaft87260
-17370	bezeichnungMannschaft58545
-108795	bezeichnungMannschaft4997
-87154	bezeichnungMannschaft63587
-11188	bezeichnungMannschaft24146
-32069	bezeichnungMannschaft32686
-52681	bezeichnungMannschaft45647
-63238	bezeichnungMannschaft73630
-33251	bezeichnungMannschaft4530
-82617	bezeichnungMannschaft72257
-68718	bezeichnungMannschaft12653
-51347	bezeichnungMannschaft3765
-27995	bezeichnungMannschaft77034
-52332	bezeichnungMannschaft43591
-43715	bezeichnungMannschaft43910
-13223	bezeichnungMannschaft33853
-64887	bezeichnungMannschaft34005
+86641	bezeichnungMannschaft16493
+32711	bezeichnungMannschaft51810
+52498	bezeichnungMannschaft40091
+36556	bezeichnungMannschaft51879
+103247	bezeichnungMannschaft76194
+11553	bezeichnungMannschaft12857
+52651	bezeichnungMannschaft30839
+17915	bezeichnungMannschaft22841
+29560	bezeichnungMannschaft2105
+91951	bezeichnungMannschaft71150
+57975	bezeichnungMannschaft86707
+25419	bezeichnungMannschaft39694
+30559	bezeichnungMannschaft24509
+77640	bezeichnungMannschaft42188
+72194	bezeichnungMannschaft90589
+32749	bezeichnungMannschaft33461
+107275	bezeichnungMannschaft82356
+90254	bezeichnungMannschaft71139
+42511	bezeichnungMannschaft36925
+83410	bezeichnungMannschaft4846
+108473	bezeichnungMannschaft41712
+18477	bezeichnungMannschaft93009
+109360	bezeichnungMannschaft82397
+42292	bezeichnungMannschaft85992
+93078	bezeichnungMannschaft26251
+38347	bezeichnungMannschaft35037
+62265	bezeichnungMannschaft44549
+32513	bezeichnungMannschaft94818
+26682	bezeichnungMannschaft59427
+85683	bezeichnungMannschaft90576
+32023	bezeichnungMannschaft30919
+28252	bezeichnungMannschaft33413
+60748	bezeichnungMannschaft33137
+97219	bezeichnungMannschaft99505
+104326	bezeichnungMannschaft49557
+93835	bezeichnungMannschaft40639
+68496	bezeichnungMannschaft28194
+87216	bezeichnungMannschaft39773
+28276	bezeichnungMannschaft98035
+41663	bezeichnungMannschaft51049
+61956	bezeichnungMannschaft49652
+72679	bezeichnungMannschaft57983
+103429	bezeichnungMannschaft66179
+49980	bezeichnungMannschaft48746
+37872	bezeichnungMannschaft67128
+23503	bezeichnungMannschaft28686
+21074	bezeichnungMannschaft22120
+48093	bezeichnungMannschaft95958
+20951	bezeichnungMannschaft32211
+26786	bezeichnungMannschaft21509
+76726	bezeichnungMannschaft5041
+59881	bezeichnungMannschaft74414
+18833	bezeichnungMannschaft90931
+75577	bezeichnungMannschaft43652
+11920	bezeichnungMannschaft34110
+101387	bezeichnungMannschaft66319
+30070	bezeichnungMannschaft68970
+73240	bezeichnungMannschaft43097
+34638	bezeichnungMannschaft92793
+76304	bezeichnungMannschaft2303
+12962	bezeichnungMannschaft37641
+90179	bezeichnungMannschaft46186
+94935	bezeichnungMannschaft5513
+58897	bezeichnungMannschaft79565
+108028	bezeichnungMannschaft36864
+40811	bezeichnungMannschaft2407
+13465	bezeichnungMannschaft14149
+31650	bezeichnungMannschaft18428
+85265	bezeichnungMannschaft18143
+10447	bezeichnungMannschaft83900
+24992	bezeichnungMannschaft17584
+62790	bezeichnungMannschaft76960
+68358	bezeichnungMannschaft25563
+33974	bezeichnungMannschaft18341
+67090	bezeichnungMannschaft71376
+71005	bezeichnungMannschaft71873
+14639	bezeichnungMannschaft63447
+38117	bezeichnungMannschaft93737
+12087	bezeichnungMannschaft77450
+22004	bezeichnungMannschaft80642
+35784	bezeichnungMannschaft87725
+90387	bezeichnungMannschaft96743
+67276	bezeichnungMannschaft15493
+92279	bezeichnungMannschaft46780
+35790	bezeichnungMannschaft39097
+20696	bezeichnungMannschaft4861
+12420	bezeichnungMannschaft88600
+82366	bezeichnungMannschaft56440
+13123	bezeichnungMannschaft11969
+90924	bezeichnungMannschaft17843
+101808	bezeichnungMannschaft39073
+33648	bezeichnungMannschaft63404
+56179	bezeichnungMannschaft53892
+78182	bezeichnungMannschaft39557
+15049	bezeichnungMannschaft56508
+86060	bezeichnungMannschaft72858
+69934	bezeichnungMannschaft73337
+86049	bezeichnungMannschaft1390
+86248	bezeichnungMannschaft51033
+34570	bezeichnungMannschaft15538
 \.
 
 -- fill table mitglied (100)
 \echo # filling table mitglied (100)
 COPY mitglied (persnr,beitrag) FROM STDIN (ENCODING 'utf-8');
-10000	71
-10002	98
-10004	48
-10006	76
-10008	51
-10010	40
-10012	42
-10014	6
-10016	34
-10018	33
-10020	48
-10022	21
-10024	50
-10026	67
-10028	87
-10030	10
-10032	98
-10034	98
-10036	66
-10038	12
-10040	30
-10042	78
-10044	89
-10046	93
-10048	22
-10050	69
-10052	24
-10054	26
-10056	3
-10058	92
-10060	95
-10062	53
-10064	98
-10066	34
-10068	48
-10070	73
-10072	89
-10074	51
-10076	14
-10078	55
-10080	88
-10082	10
-10084	25
-10086	64
-10088	58
-10090	49
-10092	93
-10094	99
-10096	48
-10098	72
-10100	35
-10102	67
-10104	94
-10106	11
-10108	96
-10110	11
-10112	10
-10114	88
-10116	10
-10118	48
-10120	41
-10122	96
-10124	43
-10126	37
-10128	13
-10130	27
-10132	10
-10134	30
-10136	100
-10138	5
-10140	33
-10142	72
-10144	80
-10146	10
-10148	1
-10150	20
-10152	54
-10154	89
-10156	88
-10158	31
-10160	21
-10162	2
-10164	52
-10166	90
-10168	76
-10170	79
-10172	5
-10174	18
-10176	57
-10178	79
-10180	15
-10182	49
-10184	87
-10186	23
-10188	83
-10190	79
-10192	97
-10194	89
-10196	70
-10198	53
+10000	52
+10002	25
+10004	43
+10006	\N
+10008	70
+10010	3
+10012	91
+10014	65
+10016	24
+10018	31
+10020	91
+10022	26
+10024	38
+10026	46
+10028	33
+10030	97
+10032	37
+10034	97
+10036	67
+10038	44
+10040	34
+10042	98
+10044	48
+10046	15
+10048	89
+10050	19
+10052	21
+10054	62
+10056	64
+10058	39
+10060	91
+10062	46
+10064	26
+10066	17
+10068	84
+10070	93
+10072	100
+10074	69
+10076	61
+10078	98
+10080	67
+10082	98
+10084	74
+10086	33
+10088	41
+10090	89
+10092	99
+10094	49
+10096	91
+10098	33
+10100	4
+10102	40
+10104	83
+10106	59
+10108	30
+10110	89
+10112	36
+10114	87
+10116	48
+10118	49
+10120	80
+10122	98
+10124	77
+10126	64
+10128	86
+10130	2
+10132	90
+10134	56
+10136	10
+10138	15
+10140	53
+10142	52
+10144	11
+10146	97
+10148	12
+10150	11
+10152	16
+10154	74
+10156	17
+10158	11
+10160	42
+10162	72
+10164	26
+10166	60
+10168	83
+10170	90
+10172	28
+10174	39
+10176	95
+10178	41
+10180	11
+10182	83
+10184	43
+10186	22
+10188	76
+10190	42
+10192	29
+10194	42
+10196	79
+10198	25
 \.
 
 -- fill table obmann (100)
@@ -1144,122 +1144,108 @@ COPY obmann (persnr) FROM STDIN (ENCODING 'utf-8');
 -- fill table fanclub (100)
 \echo # filling table fanclub (100)
 COPY fanclub (sid,name,gegruendet) FROM STDIN (ENCODING 'utf-8');
-88	Mannschaft56050	2016-02-20
-33	Mannschaft3191	2016-04-07
-88	Mannschaft23867	2016-02-26
-80	Mannschaft81635	2016-03-09
-89	Mannschaft74392	2016-03-30
-25	Mannschaft41300	2016-03-19
-16	Mannschaft84947	2016-02-01
-18	Mannschaft73943	2016-02-03
-60	Mannschaft87754	2016-03-08
-41	Mannschaft90847	2016-02-05
-48	Mannschaft29879	2016-02-21
-17	Mannschaft37511	2016-02-19
-1	Mannschaft38078	2016-02-25
-91	Mannschaft1335	2016-01-12
-78	Mannschaft41840	2016-03-20
-77	Mannschaft28091	2016-03-10
-64	Mannschaft13649	2016-04-02
-25	Mannschaft31379	2016-01-10
-70	Mannschaft2481	2016-01-12
-46	Mannschaft1233	2016-03-17
-48	Mannschaft88440	2016-04-16
-37	Mannschaft85389	2016-02-26
-100	Mannschaft30632	2016-02-19
-12	Mannschaft52586	2016-02-29
-70	Mannschaft57928	2016-04-11
-34	Mannschaft28384	2016-03-30
-36	Mannschaft32415	2016-03-14
-7	Mannschaft58938	2016-04-03
-77	Mannschaft26518	2016-02-16
-42	Mannschaft78376	2016-02-17
-4	Mannschaft26798	2016-02-09
-94	Mannschaft41800	2016-01-19
-89	Mannschaft25684	2016-03-10
-11	Mannschaft64466	2016-04-07
-73	Mannschaft6897	2016-02-28
-74	Mannschaft86251	2016-03-09
-3	Mannschaft43030	2016-01-15
-52	Mannschaft33015	2016-04-01
-99	Mannschaft50336	2016-01-13
-1	Mannschaft13358	2016-01-18
-86	Mannschaft56137	2016-01-23
-34	Mannschaft98055	2016-01-21
-48	Mannschaft82336	2016-03-31
-92	Mannschaft63147	2016-02-02
-67	Mannschaft16623	2016-04-03
-81	Mannschaft83798	2016-02-17
-47	Mannschaft27194	2016-01-11
-52	Mannschaft68169	2016-03-22
-6	Mannschaft1044	2016-03-10
-33	Mannschaft39187	2016-02-28
-46	Mannschaft28853	2016-03-31
-73	Mannschaft65538	2016-04-03
-38	Mannschaft59133	2016-02-09
-49	Mannschaft10924	2016-03-03
-71	Mannschaft82196	2016-03-05
-25	Mannschaft53456	2016-04-09
-56	Mannschaft9972	2016-03-29
-51	Mannschaft12251	2016-04-15
-47	Mannschaft43358	2016-04-09
-35	Mannschaft80186	2016-02-05
-33	Mannschaft51028	2016-01-27
-20	Mannschaft42296	2016-02-05
-18	Mannschaft60540	2016-04-10
-93	Mannschaft24260	2016-02-27
-1	Mannschaft27381	2016-03-25
-95	Mannschaft83867	2016-03-13
-83	Mannschaft70191	2016-02-22
-27	Mannschaft72321	2016-02-08
-98	Mannschaft9435	2016-02-27
-68	Mannschaft7948	2016-01-17
-30	Mannschaft10367	2016-02-28
-88	Mannschaft95698	2016-02-08
-75	Mannschaft83691	2016-02-23
-65	Mannschaft66123	2016-03-01
-43	Mannschaft28058	2016-01-14
-27	Mannschaft83136	2016-03-21
-35	Mannschaft62128	2016-02-05
-46	Mannschaft71708	2016-01-18
-25	Mannschaft11945	2016-04-13
-44	Mannschaft52798	2016-03-23
-46	Mannschaft17933	2016-03-28
-4	Mannschaft59298	2016-03-05
-29	Mannschaft1790	2016-02-08
-92	Mannschaft83585	2016-04-16
-16	Mannschaft83946	2016-02-12
-61	Mannschaft27631	2016-02-28
-28	Mannschaft86092	2016-01-28
-16	Mannschaft20365	2016-03-08
-37	Mannschaft62963	2016-03-12
-35	Mannschaft85494	2016-03-16
-100	Mannschaft40240	2016-03-30
-30	Mannschaft92854	2016-03-24
-6	Mannschaft52629	\N
-18	Mannschaft86393	2016-02-22
-55	Mannschaft22310	2016-01-18
-10	Mannschaft90459	2016-02-22
-52	Mannschaft75405	2016-03-26
-58	Mannschaft1487	2016-02-26
-77	Mannschaft71654	2016-01-26
-15	Mannschaft6476	2016-03-19
+55	Mannschaft43213	2016-01-20
+10	Mannschaft30990	2016-02-02
+62	Mannschaft58383	2016-04-01
+23	Mannschaft34712	2016-02-09
+3	Mannschaft78195	2016-02-23
+40	Mannschaft86336	2016-04-12
+33	Mannschaft38192	2016-04-16
+33	Mannschaft79135	2016-02-04
+53	Mannschaft51472	2016-03-09
+99	Mannschaft87100	2016-04-07
+55	Mannschaft4985	2016-01-26
+88	Mannschaft88000	2016-01-24
+20	Mannschaft23318	2016-02-08
+66	Mannschaft57758	2016-02-12
+34	Mannschaft85945	2016-03-30
+68	Mannschaft56850	2016-04-02
+68	Mannschaft53251	2016-04-16
+71	Mannschaft50268	2016-01-08
+38	Mannschaft27659	2016-02-06
+16	Mannschaft67560	2016-01-15
+81	Mannschaft17100	2016-02-29
+43	Mannschaft87726	2016-01-26
+62	Mannschaft8638	2016-03-04
+82	Mannschaft73670	2016-04-04
+51	Mannschaft85852	2016-04-07
+54	Mannschaft21838	2016-02-03
+66	Mannschaft33173	2016-01-18
+1	Mannschaft9831	2016-02-12
+26	Mannschaft38842	2016-03-28
+46	Mannschaft1422	2016-04-01
+17	Mannschaft57143	2016-01-10
+7	Mannschaft83912	2016-02-17
+97	Mannschaft71257	2016-02-06
+20	Mannschaft91453	2016-01-14
+5	Mannschaft10880	2016-02-01
+38	Mannschaft12868	2016-02-24
+48	Mannschaft88421	2016-04-02
+60	Mannschaft72644	2016-01-14
+15	Mannschaft89914	2016-02-28
+62	Mannschaft22448	2016-04-11
+7	Mannschaft71096	2016-01-15
+58	Mannschaft69405	2016-02-05
+71	Mannschaft29234	2016-02-07
+54	Mannschaft55688	2016-02-11
+49	Mannschaft22945	2016-03-18
+51	Mannschaft93648	2016-01-29
+80	Mannschaft17157	2016-01-31
+79	Mannschaft46295	2016-03-24
+74	Mannschaft39809	2016-02-05
+46	Mannschaft70235	2016-01-12
+80	Mannschaft67930	2016-02-17
+34	Mannschaft86659	2016-03-24
+72	Mannschaft93664	2016-01-08
+21	Mannschaft17899	2016-02-15
+27	Mannschaft21616	2016-02-02
+28	Mannschaft57972	2016-02-25
+13	Mannschaft16512	2016-03-18
+54	Mannschaft55105	2016-03-08
+59	Mannschaft53069	2016-04-13
+19	Mannschaft8992	2016-03-08
+63	Mannschaft94663	2016-02-02
+61	Mannschaft43930	2016-03-25
+51	Mannschaft45554	2016-03-19
+28	Mannschaft1208	2016-02-23
+57	Mannschaft10326	2016-01-29
+73	Mannschaft4625	2016-03-31
+34	Mannschaft4007	2016-03-31
+24	Mannschaft44713	2016-01-21
+17	Mannschaft37577	2016-01-24
+67	Mannschaft19219	2016-04-14
+83	Mannschaft85709	2016-01-13
+34	Mannschaft82346	2016-03-25
+41	Mannschaft90197	2016-04-13
+99	Mannschaft9790	2016-01-25
+75	Mannschaft9713	2016-04-14
+98	Mannschaft13341	2016-03-26
+12	Mannschaft57877	2016-01-13
+17	Mannschaft9254	2016-02-19
+66	Mannschaft40752	2016-04-12
+39	Mannschaft29677	2016-03-11
+53	Mannschaft91648	2016-02-10
+53	Mannschaft52993	2016-02-13
+77	Mannschaft71681	2016-01-23
+31	Mannschaft74863	2016-01-10
+10	Mannschaft96187	2016-01-17
+69	Mannschaft9452	2016-04-09
+79	Mannschaft39673	2016-03-20
+52	Mannschaft47984	2016-02-19
+30	Mannschaft17863	2016-03-20
+49	Mannschaft73025	2016-03-25
+82	Mannschaft32388	2016-03-19
+76	Mannschaft12910	2016-01-12
+50	Mannschaft65387	2016-03-15
+87	Mannschaft72360	2016-04-06
+65	Mannschaft48824	2016-02-03
+76	Mannschaft63965	2016-04-14
+35	Mannschaft71120	2016-03-30
+9	Mannschaft78425	2016-02-25
+60	Mannschaft30742	2016-01-28
+32	Mannschaft51739	2016-02-07
 \.
 
--- restart sequences
-ALTER SEQUENCE person_persnr_seq RESTART WITH 109999;
-ALTER SEQUENCE angestellter_persnr_seq RESTART WITH 109999;
-ALTER SEQUENCE assitrainer_persnr_seq RESTART WITH 109999;
-ALTER SEQUENCE mitglied_persnr_seq RESTART WITH 109999;
-ALTER SEQUENCE obmann_persnr_seq RESTART WITH 109999;
-
--- analyze modified tables
-ANALYZE mannschaft;
-ANALYZE person;
-ANALYZE trainer;
-ANALYZE standort;
-ANALYZE angestellter;
-ANALYZE assitrainer;
-ANALYZE mitglied;
-ANALYZE obmann;
-ANALYZE fanclub;
+-- fill table spieler (100)
+\echo # filling table spieler (100)
+COPY spieler (persnr,position,von,bis) FROM STDIN (ENCODING 'utf-8');

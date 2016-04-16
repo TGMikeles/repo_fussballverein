@@ -29,7 +29,7 @@ CREATE TABLE Person ( --df: mult=4.0
 
 
 CREATE TABLE Trainer (--df :mult=1.0
- persnr INT NOT NULL REFERENCES Person,
+ persnr Serial NOT NULL REFERENCES Person,
  gehalt int,--df: offset=10000
   von DATE,-- df: start=2000-01-01 end=2005-01-01
  bis DATE, --df : end=2016-01-01
@@ -83,5 +83,17 @@ CREATE TABLE fanclub (--df: mult=1.0
  name VARCHAR(255) NOT NULL,--df :text=mannschaft length=1
  gegruendet  DATE,--df :date
  CONSTRAINT PK_fanclub PRIMARY KEY (name,sid),
- ALTER TABLE fanclub ADD CONSTRAINT FK_fanclub_1 FOREIGN KEY (sid) REFERENCES Standort (sid)
+ CONSTRAINT FK_fanclub_1 FOREIGN KEY (sid) REFERENCES Standort (sid)
 );
+
+
+ CREATE TABLE Spieler ( --df :mult=1.0
+  persnr Serial NOT NULL REFERENCES Person,
+  nummer INT NOT NULL PRIMARY KEY,-- df: nogen
+  position VARCHAR(55),--df: text=position length=1
+  von DATE,--df: date start=1977-01-01 end=2015-03-03
+  bis DATE,--df: date start=2000-01-01 end=2015-03-03
+  gehalt  INT,--df: nogen
+ CONSTRAINT PK_Spieler PRIMARY KEY (persnr,nummer),
+ CONSTRAINT FK_Spieler_0 FOREIGN KEY (persnr) REFERENCES Person (persnr),
+ );
