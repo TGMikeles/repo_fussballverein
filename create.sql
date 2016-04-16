@@ -54,7 +54,7 @@ CREATE TABLE Angestellter (--df: mult=1.0
  CONSTRAINT FK_Angestellter_0 FOREIGN KEY (persnr) REFERENCES Person (persnr)
 );
 
-CREATE TABLE assitrainer (
+CREATE TABLE assitrainer (-- df: mult=1.0
  persnr Serial NOT NULL REFERENCES Person,
  bezeichnung VARCHAR(55) NOT NULL REFERENCES Mannschaft,
  CONSTRAINT PK_assitrainer PRIMARY KEY (persnr,bezeichnung),
@@ -62,12 +62,26 @@ CREATE TABLE assitrainer (
  CONSTRAINT FK_assitrainer_1 FOREIGN KEY (bezeichnung) REFERENCES Mannschaft (bezeichnung)
 );
 
-CREATE TABLE istKapitaen (
- persnr Serial NOT NULL REFERENCES Person,
- nummer INT NOT NULL REFERENCES Spieler,--df:nogen
- bezeichnung VARCHAR(55) NOT NULL REFERENCES Mannschaft,
- CONSTRAINT PK_istKapitaen PRIMARY KEY (persnr,nummer,bezeichnung),
-CONSTRAINT FK_istKapitaen_0 FOREIGN KEY (persnr,nummer,bezeichnung) REFERENCES Spieler (persnr,nummer,bezeichnung),
-CONSTRAINT FK_istKapitaen_1 FOREIGN KEY (bezeichnung) REFERENCES Mannschaft (bezeichnung)
 
+
+
+CREATE TABLE Mitglied ( --df : mult=1.0
+ persnr Serial NOT NULL REFERENCES Person,
+ beitrag INT,--df:offset=1
+ CONSTRAINT PK_Mitglied PRIMARY KEY (persnr),
+ CONSTRAINT FK_Mitglied_0 FOREIGN KEY (persnr) REFERENCES Person (persnr)
+);
+
+CREATE TABLE Obmann (--df : mult=1.0
+ persnr Serial NOT NULL REFERENCES Person,
+ CONSTRAINT PK_Obmann PRIMARY KEY (persnr),
+ CONSTRAINT FK_Obmann_0 FOREIGN KEY (persnr) REFERENCES Mitglied (persnr)
+);
+
+CREATE TABLE fanclub (--df: mult=1.0
+  sid int not NULL REFERENCES Standort,
+ name VARCHAR(255) NOT NULL,--df :text=mannschaft length=1
+ gegruendet  DATE,--df :date
+ CONSTRAINT PK_fanclub PRIMARY KEY (name,sid),
+ ALTER TABLE fanclub ADD CONSTRAINT FK_fanclub_1 FOREIGN KEY (sid) REFERENCES Standort (sid)
 );
