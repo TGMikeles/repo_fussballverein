@@ -9,14 +9,14 @@ import java.util.GregorianCalendar;
  * @author Ibrahim
  *
  */
-public class SqlInsert {
+public class MitgliedInserts {
 	public static void main(String[] args) {
 		try {
 
 
 
 			//Erzeugen eines Files
-			File file = new File("C:/Users/Ibrahim/Desktop/TestJava/neu_inserts.sql");
+			File file = new File("C:/Users/Ibrahim/Desktop/TestJava/kes.sql");
 
 			// if file doesnt exists, then create it
 			if (!file.exists()) {
@@ -26,38 +26,45 @@ public class SqlInsert {
 
 
 
-			
+
 			FileWriter fw = new FileWriter(file.getAbsoluteFile());
 			BufferedWriter bw = new BufferedWriter(fw);
 			//mit der schleife erzeuge ich zufaellige Geburstdatumen und die Insert wobei ich sie in einem File speicher
-			for(int i=1;i< 100000;i++){
+
+
+			for(int i=2100000;i<=2400000;i++){
+
 
 
 				GregorianCalendar gc = new GregorianCalendar();
 
-				
-				int year = randBetween(1900, 2010);
+
+				int year = randBetween(1979, 2005 );
+				int kes=zufallD(50000);
 
 				gc.set(gc.YEAR, year);
 
 				int dayOfYear = randBetween(1, gc.getActualMaximum(gc.DAY_OF_YEAR));
 
 				gc.set(gc.DAY_OF_YEAR, dayOfYear);
-				for(int k=0 ;k<100000;k++){
-				for (int b=10000;b < 10000000;b++){
-				if(b%2==1)
-					System.out.println(b);
-					bw.write("insert into person(persnr,vname,nname,geschlecht,gebdat) values("
-						+ i+"," + "'Vorname" + i+"'," +  "'Nachname"+i+"'"+ ","+"'M',"+"'"+gc.get(gc.YEAR) + "-" + (gc.get(gc.MONTH) + 1) + "-" + gc.get(gc.DAY_OF_MONTH)+"'"+
-						");" +System.getProperty("line.separator"));
+				if(i%2==0){
+
+					bw.write("insert into persnr(persnr,vname,nname,geschlecht,gebdat) values("+i+",'"+"Vorname"+i+"'"+"'Nachname"+i+"','M'"+"',"+"'"+gc.get(gc.YEAR) + "-" + (gc.get(gc.MONTH) + 1) + "-" + gc.get(gc.DAY_OF_MONTH)+
+							" ');"+System.getProperty("line.separator"));
+
+					bw.write("insert into mitglied(persnr,beitrag,obmann) values("+i+","+kes+",'Obmann"+i+"');"+System.getProperty("line.separator"));
+
+
 				}
-				}
-			//Test ob wirklich das geburstdatum zwischen 1900 und 2010 ist	
+				//Test ob wirklich das geburstdatum zwischen 1900 und 2010 ist	
 				System.out.println(gc.get(gc.YEAR) + "-" + (gc.get(gc.MONTH) + 1) + "-" + gc.get(gc.DAY_OF_MONTH));
 			}
-			bw.close();
 
+
+
+			bw.close();
 			System.out.println("Done");
+
 
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -70,5 +77,10 @@ public class SqlInsert {
 	public static int randBetween(int start, int end) {
 		return start + (int)Math.round(Math.random() * (end - start));
 	}
+	public static int zufallD(int anzahl) {
+		return anzahl + (int)Math.round(Math.random() * anzahl);
+	}
 }
+
+
 
