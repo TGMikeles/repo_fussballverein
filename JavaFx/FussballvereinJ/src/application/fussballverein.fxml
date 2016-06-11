@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FussballvereinController">
+  <tabs>
+    <Tab text="Anmeldung">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Label layoutX="54.0" layoutY="80.0" text="Datenbankname" />
+                  <Label layoutX="53.0" layoutY="114.0" text="Datenbankuser" />
+                  <Label layoutX="55.0" layoutY="152.0" text="Passwort" />
+                  <Label layoutX="57.0" layoutY="193.0" text="Ip-Adresse" />
+                  <Button fx:id="connect" layoutX="452.0" layoutY="307.0" mnemonicParsing="false" onAction="#connection" text="Connect " />
+                  <TextField fx:id="dbname" layoutX="217.0" layoutY="75.0" text="fussballverein" />
+                  <TextField fx:id="dbuser" layoutX="217.0" layoutY="109.0" text="fussuser" />
+                  <TextField fx:id="dbpasswd" layoutX="217.0" layoutY="147.0" text="fussUser" />
+                  <TextField fx:id="dbip" layoutX="217.0" layoutY="197.0" text="10.211.55.5" />
+                  <Label layoutX="183.0" layoutY="299.0" />
+               </children></AnchorPane>
+      </content>
+    </Tab>
+    <Tab text="SELECT">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <TableView fx:id="tableZeichen" layoutX="27.0" layoutY="29.0" prefHeight="271.0" prefWidth="270.0" />
+                  <TableView fx:id="tablezwei" layoutX="334.0" layoutY="29.0" prefHeight="272.0" prefWidth="246.0" />
+                  <Button fx:id="addRefresh" layoutX="178.0" layoutY="316.0" mnemonicParsing="false" onAction="#table" text="Add" />
+               </children></AnchorPane>
+      </content>
+    </Tab>
+      <Tab text="Create">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Label layoutX="47.0" layoutY="62.0" prefHeight="17.0" prefWidth="49.0" text="Mannschaft" />
+                  <TextField fx:id="createneTab" layoutX="126.0" layoutY="57.0" prefHeight="27.0" prefWidth="266.0" />
+                  <Button fx:id="createTab" layoutX="470.0" layoutY="299.0" mnemonicParsing="false" onAction="#insert" prefHeight="27.0" prefWidth="69.0" text="Create" />
+                  <Label layoutX="52.0" layoutY="131.0" text="Datum" />
+                  <TextField fx:id="datumInsert" layoutX="133.0" layoutY="126.0" prefHeight="27.0" prefWidth="262.0" />
+                  <TextField fx:id="gegnerTab" layoutX="129.0" layoutY="170.0" prefHeight="27.0" prefWidth="260.0" />
+                  <TextField fx:id="spieleTab" layoutX="133.0" layoutY="230.0" prefHeight="27.0" prefWidth="259.0" />
+                  <Label layoutX="55.0" layoutY="175.0" text="Gegner" />
+                  <Label fx:id="spieldauerInsert" layoutX="53.0" layoutY="235.0" prefHeight="17.0" prefWidth="50.0" text="Spielergebnis" />
+               </children>
+            </AnchorPane>
+        </content>
+      </Tab>
+      <Tab text="Delete">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="deleteTabbut" layoutX="509.0" layoutY="312.0" mnemonicParsing="false" onAction="#delete" text="Delete" />
+                  <Label layoutX="44.0" layoutY="113.0" text="Bezeichnung angeben " />
+                  <TextField fx:id="valueHin" layoutX="192.0" layoutY="108.0" prefHeight="27.0" prefWidth="315.0" />
+               </children>
+            </AnchorPane>
+        </content>
+      </Tab>
+      <Tab text="Update">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <TextField fx:id="updateTab" layoutX="179.0" layoutY="192.0" prefHeight="27.0" prefWidth="167.0" />
+                  <Button fx:id="updateButton" layoutX="457.0" layoutY="287.0" mnemonicParsing="false" onAction="#update" text="Update" />
+                  <Label layoutX="436.0" layoutY="100.0" />
+                  <TextField fx:id="alttabel" layoutX="182.0" layoutY="247.0" />
+                  <Label layoutX="290.0" layoutY="162.0" text="," />
+                  <Label layoutX="42.0" layoutY="197.0" prefHeight="17.0" prefWidth="96.0" text="Spalte" />
+                  <Label layoutX="42.0" layoutY="252.0" text="Alterwert" />
+                  <Label layoutX="42.0" layoutY="154.0" text="neuerWert " />
+                  <Label layoutX="42.0" layoutY="109.0" text="Spalte" />
+                  <TextField layoutX="182.0" layoutY="149.0" />
+                  <TextField fx:id="newColm" layoutX="170.0" layoutY="104.0" />
+               </children>
+            </AnchorPane>
+        </content>
+      </Tab>
+  </tabs>
+</TabPane>
